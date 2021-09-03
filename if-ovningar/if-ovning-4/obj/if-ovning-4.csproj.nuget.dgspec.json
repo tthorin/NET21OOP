@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arger\\source\\repos\\NET21OOP\\if-ovningar\\if-ovning-4\\if-ovning-4.csproj": {}
+    "D:\\Arger\\Documents\\GitHub\\NET21OOP\\if-ovningar\\if-ovning-4\\if-ovning-4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arger\\source\\repos\\NET21OOP\\if-ovningar\\if-ovning-4\\if-ovning-4.csproj": {
+    "D:\\Arger\\Documents\\GitHub\\NET21OOP\\if-ovningar\\if-ovning-4\\if-ovning-4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arger\\source\\repos\\NET21OOP\\if-ovningar\\if-ovning-4\\if-ovning-4.csproj",
+        "projectUniqueName": "D:\\Arger\\Documents\\GitHub\\NET21OOP\\if-ovningar\\if-ovning-4\\if-ovning-4.csproj",
         "projectName": "if-ovning-4",
-        "projectPath": "C:\\Users\\arger\\source\\repos\\NET21OOP\\if-ovningar\\if-ovning-4\\if-ovning-4.csproj",
-        "packagesPath": "C:\\Users\\arger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arger\\source\\repos\\NET21OOP\\if-ovningar\\if-ovning-4\\obj\\",
+        "projectPath": "D:\\Arger\\Documents\\GitHub\\NET21OOP\\if-ovningar\\if-ovning-4\\if-ovning-4.csproj",
+        "packagesPath": "C:\\Users\\Arger\\.nuget\\packages\\",
+        "outputPath": "D:\\Arger\\Documents\\GitHub\\NET21OOP\\if-ovningar\\if-ovning-4\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\CodingStuff\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\arger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Arger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -12,3 +12,17 @@ C:\Users\arger\Source\Repos\NET21OOP\if-satser\obj\Debug\netcoreapp3.1\if-satser
 C:\Users\arger\Source\Repos\NET21OOP\if-satser\obj\Debug\netcoreapp3.1\if-satser.dll
 C:\Users\arger\Source\Repos\NET21OOP\if-satser\obj\Debug\netcoreapp3.1\if-satser.pdb
 C:\Users\arger\Source\Repos\NET21OOP\if-satser\obj\Debug\netcoreapp3.1\if-satser.genruntimeconfig.cache
+D:\Arger\Documents\GitHub\NET21OOP\if-satser\bin\Debug\netcoreapp3.1\if-satser.exe
+D:\Arger\Documents\GitHub\NET21OOP\if-satser\bin\Debug\netcoreapp3.1\if-satser.deps.json
+D:\Arger\Documents\GitHub\NET21OOP\if-satser\bin\Debug\netcoreapp3.1\if-satser.runtimeconfig.json
+D:\Arger\Documents\GitHub\NET21OOP\if-satser\bin\Debug\netcoreapp3.1\if-satser.runtimeconfig.dev.json
+D:\Arger\Documents\GitHub\NET21OOP\if-satser\bin\Debug\netcoreapp3.1\if-satser.dll
+D:\Arger\Documents\GitHub\NET21OOP\if-satser\bin\Debug\netcoreapp3.1\if-satser.pdb
+D:\Arger\Documents\GitHub\NET21OOP\if-satser\obj\Debug\netcoreapp3.1\if-satser.csproj.AssemblyReference.cache
+D:\Arger\Documents\GitHub\NET21OOP\if-satser\obj\Debug\netcoreapp3.1\if-satser.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arger\Documents\GitHub\NET21OOP\if-satser\obj\Debug\netcoreapp3.1\if-satser.AssemblyInfoInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\if-satser\obj\Debug\netcoreapp3.1\if-satser.AssemblyInfo.cs
+D:\Arger\Documents\GitHub\NET21OOP\if-satser\obj\Debug\netcoreapp3.1\if-satser.csproj.CoreCompileInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\if-satser\obj\Debug\netcoreapp3.1\if-satser.dll
+D:\Arger\Documents\GitHub\NET21OOP\if-satser\obj\Debug\netcoreapp3.1\if-satser.pdb
+D:\Arger\Documents\GitHub\NET21OOP\if-satser\obj\Debug\netcoreapp3.1\if-satser.genruntimeconfig.cache

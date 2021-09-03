@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\if-satser"
+    "\\if-ovningar",
+    "\\if-ovningar\\if-ovning-1",
+    "\\if-ovningar\\if-ovning-4",
+    "\\if-ovningar\\if-ovning1"
   ],
-  "SelectedNode": "\\if-satser",
+  "SelectedNode": "\\if-ovningar\\if-ovning-4\\if-ovning-4.csproj",
   "PreviewInSolutionExplorer": false
 }

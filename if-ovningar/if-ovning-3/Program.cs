@@ -36,8 +36,6 @@ namespace if_ovning_3
             int guess = 0;
             int gissningar = 0;
 
-            Console.WriteLine("Hello World!");
-
             while(secretNotFound)
             {
                 Console.Write("Gissa på ett tal mellan 1 och 100: ");

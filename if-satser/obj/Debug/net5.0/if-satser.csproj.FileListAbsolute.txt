@@ -1,0 +1,16 @@
+C:\Users\arger\Source\Repos\NET21OOP\if-satser\bin\Debug\net5.0\if-satser.exe
+C:\Users\arger\Source\Repos\NET21OOP\if-satser\bin\Debug\net5.0\if-satser.deps.json
+C:\Users\arger\Source\Repos\NET21OOP\if-satser\bin\Debug\net5.0\if-satser.runtimeconfig.json
+C:\Users\arger\Source\Repos\NET21OOP\if-satser\bin\Debug\net5.0\if-satser.runtimeconfig.dev.json
+C:\Users\arger\Source\Repos\NET21OOP\if-satser\bin\Debug\net5.0\if-satser.dll
+C:\Users\arger\Source\Repos\NET21OOP\if-satser\bin\Debug\net5.0\ref\if-satser.dll
+C:\Users\arger\Source\Repos\NET21OOP\if-satser\bin\Debug\net5.0\if-satser.pdb
+C:\Users\arger\Source\Repos\NET21OOP\if-satser\obj\Debug\net5.0\if-satser.csproj.AssemblyReference.cache
+C:\Users\arger\Source\Repos\NET21OOP\if-satser\obj\Debug\net5.0\if-satser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arger\Source\Repos\NET21OOP\if-satser\obj\Debug\net5.0\if-satser.AssemblyInfoInputs.cache
+C:\Users\arger\Source\Repos\NET21OOP\if-satser\obj\Debug\net5.0\if-satser.AssemblyInfo.cs
+C:\Users\arger\Source\Repos\NET21OOP\if-satser\obj\Debug\net5.0\if-satser.csproj.CoreCompileInputs.cache
+C:\Users\arger\Source\Repos\NET21OOP\if-satser\obj\Debug\net5.0\if-satser.dll
+C:\Users\arger\Source\Repos\NET21OOP\if-satser\obj\Debug\net5.0\ref\if-satser.dll
+C:\Users\arger\Source\Repos\NET21OOP\if-satser\obj\Debug\net5.0\if-satser.pdb
+C:\Users\arger\Source\Repos\NET21OOP\if-satser\obj\Debug\net5.0\if-satser.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+D:\Arger\Documents\GitHub\NET21OOP\if-ovningar\if-ovning-5-boll\bin\Debug\net5.0\if-ovning-5-boll.exe
+D:\Arger\Documents\GitHub\NET21OOP\if-ovningar\if-ovning-5-boll\bin\Debug\net5.0\if-ovning-5-boll.deps.json
+D:\Arger\Documents\GitHub\NET21OOP\if-ovningar\if-ovning-5-boll\bin\Debug\net5.0\if-ovning-5-boll.runtimeconfig.json
+D:\Arger\Documents\GitHub\NET21OOP\if-ovningar\if-ovning-5-boll\bin\Debug\net5.0\if-ovning-5-boll.runtimeconfig.dev.json
+D:\Arger\Documents\GitHub\NET21OOP\if-ovningar\if-ovning-5-boll\bin\Debug\net5.0\if-ovning-5-boll.dll
+D:\Arger\Documents\GitHub\NET21OOP\if-ovningar\if-ovning-5-boll\bin\Debug\net5.0\ref\if-ovning-5-boll.dll
+D:\Arger\Documents\GitHub\NET21OOP\if-ovningar\if-ovning-5-boll\bin\Debug\net5.0\if-ovning-5-boll.pdb
+D:\Arger\Documents\GitHub\NET21OOP\if-ovningar\if-ovning-5-boll\obj\Debug\net5.0\if-ovning-5-boll.csproj.AssemblyReference.cache
+D:\Arger\Documents\GitHub\NET21OOP\if-ovningar\if-ovning-5-boll\obj\Debug\net5.0\if-ovning-5-boll.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arger\Documents\GitHub\NET21OOP\if-ovningar\if-ovning-5-boll\obj\Debug\net5.0\if-ovning-5-boll.AssemblyInfoInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\if-ovningar\if-ovning-5-boll\obj\Debug\net5.0\if-ovning-5-boll.AssemblyInfo.cs
+D:\Arger\Documents\GitHub\NET21OOP\if-ovningar\if-ovning-5-boll\obj\Debug\net5.0\if-ovning-5-boll.csproj.CoreCompileInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\if-ovningar\if-ovning-5-boll\obj\Debug\net5.0\if-ovning-5-boll.dll
+D:\Arger\Documents\GitHub\NET21OOP\if-ovningar\if-ovning-5-boll\obj\Debug\net5.0\ref\if-ovning-5-boll.dll
+D:\Arger\Documents\GitHub\NET21OOP\if-ovningar\if-ovning-5-boll\obj\Debug\net5.0\if-ovning-5-boll.pdb
+D:\Arger\Documents\GitHub\NET21OOP\if-ovningar\if-ovning-5-boll\obj\Debug\net5.0\if-ovning-5-boll.genruntimeconfig.cache

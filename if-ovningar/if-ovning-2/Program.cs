@@ -12,16 +12,16 @@ namespace if_ovning_2
 
             if (age > 14)
             {
-                Console.WriteLine("Du får EU moped.");
+                Console.WriteLine("Du får köra EU moped.");
                 if (age > 17)
                 {
-                    Console.WriteLine("Du får personbil.");
+                    Console.WriteLine("Du får köra personbil.");
                     if (age > 20)
                     {
-                        Console.WriteLine("Du får tung lastbil.");
+                        Console.WriteLine("Du får köra tung lastbil.");
                         if (age > 23)
                         {
-                            Console.WriteLine("Du får buss.");
+                            Console.WriteLine("Du får köra buss.");
                         }
                     }
                 }

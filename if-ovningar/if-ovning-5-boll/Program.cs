@@ -52,9 +52,9 @@ namespace if_ovning_5_boll
                 {
                     verticalSpeed = -1;
                     if (horizontalSpeed > 0)
-                        horizontalSpeed++;
+                        horizontalSpeed = 2;
                     else
-                        horizontalSpeed--;
+                        horizontalSpeed = -2;
                 }
 
                 verticalPosition += verticalSpeed;
@@ -73,7 +73,7 @@ namespace if_ovning_5_boll
                 //}
 
                 //slumpvis färg lösning från https://stackoverflow.com/questions/17456788/how-to-randomly-pick-one-of-known-console-colors-for-text
-                //Console.ForegroundColor = (ConsoleColor)rng.Next(1, 16);
+                Console.ForegroundColor = (ConsoleColor)rng.Next(1, 16);
 
                 //Console.SetCursorPosition(horizontalPosition, verticalPosition);
                 //Console.Write("☺");

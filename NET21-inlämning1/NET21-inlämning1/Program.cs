@@ -139,5 +139,25 @@ namespace NET21_inlämning1
             return intValue;
         }
         //==================end int InputToInt(string) method==============
+
+        //==================Start void PrintDice(int[]) method==============
+        static void PrintDice(int[] diceResult)
+        {
+            int numberOfDice = 3;
+            int dieHeight = 5;
+            int dieWidth = 5;
+            Console.WriteLine("");
+            int startRow = Console.CursorTop;
+            int startColumn = Console.CursorLeft;
+            for (int i = 0; i < numberOfDice; i++)
+            {
+                for (int j = 0; j < dieHeight; j++)
+                {
+
+                }
+
+            }
+        }
+        //==================end void PrintDice(int[]) method==============
     }
 }

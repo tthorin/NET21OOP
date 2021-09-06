@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterationer-Ovningar", "Iterationer-Ovningar\Iterationer-Ovningar.csproj", "{2EAC749A-D138-4C62-83EC-160A709AB1FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterationer-Ovningar", "Iterationer-Ovningar\Iterationer-Ovningar.csproj", "{2EAC749A-D138-4C62-83EC-160A709AB1FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ovning1-While", "ovning1-While\ovning1-While.csproj", "{2E89C93C-F571-40E5-99D1-7A27D973CCB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ovning1-While", "ovning1-While\ovning1-While.csproj", "{2E89C93C-F571-40E5-99D1-7A27D973CCB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ovning2-DoWhile", "ovning2-DoWhile\ovning2-DoWhile.csproj", "{DC873B96-B6E2-43FD-8001-FA34CB3F9B6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ovning2-DoWhile", "ovning2-DoWhile\ovning2-DoWhile.csproj", "{DC873B96-B6E2-43FD-8001-FA34CB3F9B6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ovning3-for", "ovning3-for\ovning3-for.csproj", "{C240D109-6213-4895-A9F0-165205D8E41E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ovning3-for", "ovning3-for\ovning3-for.csproj", "{C240D109-6213-4895-A9F0-165205D8E41E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ovning4-foreach", "ovning4-foreach\ovning4-foreach.csproj", "{23C46298-C4DA-4488-972E-996E06FA75F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ovning4-foreach", "ovning4-foreach\ovning4-foreach.csproj", "{23C46298-C4DA-4488-972E-996E06FA75F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ovning5", "ovning5\ovning5.csproj", "{EF335E21-BCF6-461A-88AC-EC741966D0D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{23C46298-C4DA-4488-972E-996E06FA75F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23C46298-C4DA-4488-972E-996E06FA75F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23C46298-C4DA-4488-972E-996E06FA75F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF335E21-BCF6-461A-88AC-EC741966D0D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF335E21-BCF6-461A-88AC-EC741966D0D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF335E21-BCF6-461A-88AC-EC741966D0D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF335E21-BCF6-461A-88AC-EC741966D0D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

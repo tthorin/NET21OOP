@@ -10,7 +10,6 @@ namespace ovning3_for
             int value = 0;
             string input = "";
 
-
             Console.Write("Ange ett värde till for loopen: ");
             input = Console.ReadLine();
             int.TryParse(input, out value);
@@ -20,7 +19,7 @@ namespace ovning3_for
                 sum += value;
             }
 
-            Console.WriteLine($"summan blev: {sum}");
+            Console.WriteLine($"Summan blev: {sum}");
         }
     }
 }

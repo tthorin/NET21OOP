@@ -24,8 +24,8 @@ namespace ovning2_DoWhile
                 Console.SetCursorPosition(ballXPos, row);
                 Console.Write("O");
 
-
                 Thread.Sleep(50);
+
                 Console.SetCursorPosition(ballXPos, row);
                 Console.Write(" ");
                 ballXPos--;

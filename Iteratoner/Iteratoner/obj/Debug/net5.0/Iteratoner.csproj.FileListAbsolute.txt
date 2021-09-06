@@ -1,0 +1,16 @@
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\Iteratoner\bin\Debug\net5.0\Iteratoner.exe
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\Iteratoner\bin\Debug\net5.0\Iteratoner.deps.json
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\Iteratoner\bin\Debug\net5.0\Iteratoner.runtimeconfig.json
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\Iteratoner\bin\Debug\net5.0\Iteratoner.runtimeconfig.dev.json
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\Iteratoner\bin\Debug\net5.0\Iteratoner.dll
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\Iteratoner\bin\Debug\net5.0\ref\Iteratoner.dll
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\Iteratoner\bin\Debug\net5.0\Iteratoner.pdb
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\Iteratoner\obj\Debug\net5.0\Iteratoner.csproj.AssemblyReference.cache
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\Iteratoner\obj\Debug\net5.0\Iteratoner.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\Iteratoner\obj\Debug\net5.0\Iteratoner.AssemblyInfoInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\Iteratoner\obj\Debug\net5.0\Iteratoner.AssemblyInfo.cs
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\Iteratoner\obj\Debug\net5.0\Iteratoner.csproj.CoreCompileInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\Iteratoner\obj\Debug\net5.0\Iteratoner.dll
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\Iteratoner\obj\Debug\net5.0\ref\Iteratoner.dll
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\Iteratoner\obj\Debug\net5.0\Iteratoner.pdb
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\Iteratoner\obj\Debug\net5.0\Iteratoner.genruntimeconfig.cache

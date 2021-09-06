@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "NET21-inlämning1/1.0.0": {
+        "runtime": {
+          "NET21-inlämning1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NET21-inlämning1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

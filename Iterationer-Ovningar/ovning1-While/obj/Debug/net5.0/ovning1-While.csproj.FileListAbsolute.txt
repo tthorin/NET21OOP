@@ -1,0 +1,16 @@
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\ovning1-While\bin\Debug\net5.0\ovning1-While.exe
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\ovning1-While\bin\Debug\net5.0\ovning1-While.deps.json
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\ovning1-While\bin\Debug\net5.0\ovning1-While.runtimeconfig.json
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\ovning1-While\bin\Debug\net5.0\ovning1-While.runtimeconfig.dev.json
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\ovning1-While\bin\Debug\net5.0\ovning1-While.dll
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\ovning1-While\bin\Debug\net5.0\ref\ovning1-While.dll
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\ovning1-While\bin\Debug\net5.0\ovning1-While.pdb
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\ovning1-While\obj\Debug\net5.0\ovning1-While.csproj.AssemblyReference.cache
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\ovning1-While\obj\Debug\net5.0\ovning1-While.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\ovning1-While\obj\Debug\net5.0\ovning1-While.AssemblyInfoInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\ovning1-While\obj\Debug\net5.0\ovning1-While.AssemblyInfo.cs
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\ovning1-While\obj\Debug\net5.0\ovning1-While.csproj.CoreCompileInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\ovning1-While\obj\Debug\net5.0\ovning1-While.dll
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\ovning1-While\obj\Debug\net5.0\ref\ovning1-While.dll
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\ovning1-While\obj\Debug\net5.0\ovning1-While.pdb
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\ovning1-While\obj\Debug\net5.0\ovning1-While.genruntimeconfig.cache

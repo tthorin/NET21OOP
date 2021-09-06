@@ -1,0 +1,16 @@
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\Iterationer-Ovningar\bin\Debug\net5.0\Iterationer-Ovningar.exe
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\Iterationer-Ovningar\bin\Debug\net5.0\Iterationer-Ovningar.deps.json
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\Iterationer-Ovningar\bin\Debug\net5.0\Iterationer-Ovningar.runtimeconfig.json
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\Iterationer-Ovningar\bin\Debug\net5.0\Iterationer-Ovningar.runtimeconfig.dev.json
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\Iterationer-Ovningar\bin\Debug\net5.0\Iterationer-Ovningar.dll
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\Iterationer-Ovningar\bin\Debug\net5.0\ref\Iterationer-Ovningar.dll
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\Iterationer-Ovningar\bin\Debug\net5.0\Iterationer-Ovningar.pdb
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\Iterationer-Ovningar\obj\Debug\net5.0\Iterationer-Ovningar.csproj.AssemblyReference.cache
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\Iterationer-Ovningar\obj\Debug\net5.0\Iterationer-Ovningar.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\Iterationer-Ovningar\obj\Debug\net5.0\Iterationer-Ovningar.AssemblyInfoInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\Iterationer-Ovningar\obj\Debug\net5.0\Iterationer-Ovningar.AssemblyInfo.cs
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\Iterationer-Ovningar\obj\Debug\net5.0\Iterationer-Ovningar.csproj.CoreCompileInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\Iterationer-Ovningar\obj\Debug\net5.0\Iterationer-Ovningar.dll
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\Iterationer-Ovningar\obj\Debug\net5.0\ref\Iterationer-Ovningar.dll
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\Iterationer-Ovningar\obj\Debug\net5.0\Iterationer-Ovningar.pdb
+D:\Arger\Documents\GitHub\NET21OOP\Iterationer-Ovningar\Iterationer-Ovningar\obj\Debug\net5.0\Iterationer-Ovningar.genruntimeconfig.cache

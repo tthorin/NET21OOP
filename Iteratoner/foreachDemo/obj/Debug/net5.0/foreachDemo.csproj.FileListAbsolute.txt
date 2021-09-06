@@ -1,0 +1,15 @@
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\foreachDemo\bin\Debug\net5.0\foreachDemo.exe
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\foreachDemo\bin\Debug\net5.0\foreachDemo.deps.json
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\foreachDemo\bin\Debug\net5.0\foreachDemo.runtimeconfig.json
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\foreachDemo\bin\Debug\net5.0\foreachDemo.runtimeconfig.dev.json
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\foreachDemo\bin\Debug\net5.0\foreachDemo.dll
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\foreachDemo\bin\Debug\net5.0\ref\foreachDemo.dll
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\foreachDemo\bin\Debug\net5.0\foreachDemo.pdb
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\foreachDemo\obj\Debug\net5.0\foreachDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\foreachDemo\obj\Debug\net5.0\foreachDemo.AssemblyInfoInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\foreachDemo\obj\Debug\net5.0\foreachDemo.AssemblyInfo.cs
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\foreachDemo\obj\Debug\net5.0\foreachDemo.csproj.CoreCompileInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\foreachDemo\obj\Debug\net5.0\foreachDemo.dll
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\foreachDemo\obj\Debug\net5.0\ref\foreachDemo.dll
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\foreachDemo\obj\Debug\net5.0\foreachDemo.pdb
+D:\Arger\Documents\GitHub\NET21OOP\Iteratoner\foreachDemo\obj\Debug\net5.0\foreachDemo.genruntimeconfig.cache

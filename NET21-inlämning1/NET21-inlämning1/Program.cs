@@ -172,9 +172,7 @@ namespace NET21_inlämning1
             int startColumn = Console.CursorLeft;
 
             Console.WriteLine("");
-
-            //TODO clean up
-            //┌─┐└┘│o
+            
             for (int dice = 0; dice < numberOfDice; dice++)
             {
                 if (dice > 0) startColumn += diceWidth + spaceBetweenDice;                

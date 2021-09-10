@@ -1,0 +1,16 @@
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ovn1\bin\Debug\net5.0\ovn1.exe
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ovn1\bin\Debug\net5.0\ovn1.deps.json
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ovn1\bin\Debug\net5.0\ovn1.runtimeconfig.json
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ovn1\bin\Debug\net5.0\ovn1.runtimeconfig.dev.json
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ovn1\bin\Debug\net5.0\ovn1.dll
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ovn1\bin\Debug\net5.0\ref\ovn1.dll
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ovn1\bin\Debug\net5.0\ovn1.pdb
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ovn1\obj\Debug\net5.0\ovn1.csproj.AssemblyReference.cache
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ovn1\obj\Debug\net5.0\ovn1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ovn1\obj\Debug\net5.0\ovn1.AssemblyInfoInputs.cache
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ovn1\obj\Debug\net5.0\ovn1.AssemblyInfo.cs
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ovn1\obj\Debug\net5.0\ovn1.csproj.CoreCompileInputs.cache
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ovn1\obj\Debug\net5.0\ovn1.dll
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ovn1\obj\Debug\net5.0\ref\ovn1.dll
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ovn1\obj\Debug\net5.0\ovn1.pdb
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ovn1\obj\Debug\net5.0\ovn1.genruntimeconfig.cache

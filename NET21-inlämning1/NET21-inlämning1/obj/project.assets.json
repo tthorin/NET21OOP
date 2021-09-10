@@ -8,24 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Arger\\.nuget\\packages\\": {},
-    "D:\\CodingStuff\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\arger\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Arger\\Documents\\GitHub\\NET21OOP\\NET21-inlämning1\\NET21-inlämning1\\NET21-inlämning1.csproj",
+      "projectUniqueName": "C:\\Users\\arger\\Documents\\GitHub\\NET21OOP\\NET21-inlämning1\\NET21-inlämning1\\NET21-inlämning1.csproj",
       "projectName": "NET21-inlämning1",
-      "projectPath": "D:\\Arger\\Documents\\GitHub\\NET21OOP\\NET21-inlämning1\\NET21-inlämning1\\NET21-inlämning1.csproj",
-      "packagesPath": "C:\\Users\\Arger\\.nuget\\packages\\",
-      "outputPath": "D:\\Arger\\Documents\\GitHub\\NET21OOP\\NET21-inlämning1\\NET21-inlämning1\\obj\\",
+      "projectPath": "C:\\Users\\arger\\Documents\\GitHub\\NET21OOP\\NET21-inlämning1\\NET21-inlämning1\\NET21-inlämning1.csproj",
+      "packagesPath": "C:\\Users\\arger\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\arger\\Documents\\GitHub\\NET21OOP\\NET21-inlämning1\\NET21-inlämning1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\CodingStuff\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Arger\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\arger\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

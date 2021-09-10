@@ -1,0 +1,16 @@
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\StringListDemo\bin\Debug\net5.0\StringListDemo.exe
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\StringListDemo\bin\Debug\net5.0\StringListDemo.deps.json
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\StringListDemo\bin\Debug\net5.0\StringListDemo.runtimeconfig.json
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\StringListDemo\bin\Debug\net5.0\StringListDemo.runtimeconfig.dev.json
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\StringListDemo\bin\Debug\net5.0\StringListDemo.dll
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\StringListDemo\bin\Debug\net5.0\ref\StringListDemo.dll
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\StringListDemo\bin\Debug\net5.0\StringListDemo.pdb
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\StringListDemo\obj\Debug\net5.0\StringListDemo.csproj.AssemblyReference.cache
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\StringListDemo\obj\Debug\net5.0\StringListDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\StringListDemo\obj\Debug\net5.0\StringListDemo.AssemblyInfoInputs.cache
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\StringListDemo\obj\Debug\net5.0\StringListDemo.AssemblyInfo.cs
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\StringListDemo\obj\Debug\net5.0\StringListDemo.csproj.CoreCompileInputs.cache
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\StringListDemo\obj\Debug\net5.0\StringListDemo.dll
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\StringListDemo\obj\Debug\net5.0\ref\StringListDemo.dll
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\StringListDemo\obj\Debug\net5.0\StringListDemo.pdb
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\StringListDemo\obj\Debug\net5.0\StringListDemo.genruntimeconfig.cache

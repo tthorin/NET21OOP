@@ -1,0 +1,16 @@
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ListExempel\bin\Debug\net5.0\ListExempel.exe
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ListExempel\bin\Debug\net5.0\ListExempel.deps.json
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ListExempel\bin\Debug\net5.0\ListExempel.runtimeconfig.json
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ListExempel\bin\Debug\net5.0\ListExempel.runtimeconfig.dev.json
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ListExempel\bin\Debug\net5.0\ListExempel.dll
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ListExempel\bin\Debug\net5.0\ref\ListExempel.dll
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ListExempel\bin\Debug\net5.0\ListExempel.pdb
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ListExempel\obj\Debug\net5.0\ListExempel.csproj.AssemblyReference.cache
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ListExempel\obj\Debug\net5.0\ListExempel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ListExempel\obj\Debug\net5.0\ListExempel.AssemblyInfoInputs.cache
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ListExempel\obj\Debug\net5.0\ListExempel.AssemblyInfo.cs
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ListExempel\obj\Debug\net5.0\ListExempel.csproj.CoreCompileInputs.cache
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ListExempel\obj\Debug\net5.0\ListExempel.dll
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ListExempel\obj\Debug\net5.0\ref\ListExempel.dll
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ListExempel\obj\Debug\net5.0\ListExempel.pdb
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\ListExempel\obj\Debug\net5.0\ListExempel.genruntimeconfig.cache

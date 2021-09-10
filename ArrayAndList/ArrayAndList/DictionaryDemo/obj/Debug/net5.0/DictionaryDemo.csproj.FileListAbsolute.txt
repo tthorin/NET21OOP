@@ -1,0 +1,15 @@
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\DictionaryDemo\bin\Debug\net5.0\DictionaryDemo.exe
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\DictionaryDemo\bin\Debug\net5.0\DictionaryDemo.deps.json
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\DictionaryDemo\bin\Debug\net5.0\DictionaryDemo.runtimeconfig.json
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\DictionaryDemo\bin\Debug\net5.0\DictionaryDemo.runtimeconfig.dev.json
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\DictionaryDemo\bin\Debug\net5.0\DictionaryDemo.dll
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\DictionaryDemo\bin\Debug\net5.0\ref\DictionaryDemo.dll
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\DictionaryDemo\bin\Debug\net5.0\DictionaryDemo.pdb
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\DictionaryDemo\obj\Debug\net5.0\DictionaryDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\DictionaryDemo\obj\Debug\net5.0\DictionaryDemo.AssemblyInfoInputs.cache
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\DictionaryDemo\obj\Debug\net5.0\DictionaryDemo.AssemblyInfo.cs
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\DictionaryDemo\obj\Debug\net5.0\DictionaryDemo.csproj.CoreCompileInputs.cache
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\DictionaryDemo\obj\Debug\net5.0\DictionaryDemo.dll
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\DictionaryDemo\obj\Debug\net5.0\ref\DictionaryDemo.dll
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\DictionaryDemo\obj\Debug\net5.0\DictionaryDemo.pdb
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayAndList\ArrayAndList\DictionaryDemo\obj\Debug\net5.0\DictionaryDemo.genruntimeconfig.cache

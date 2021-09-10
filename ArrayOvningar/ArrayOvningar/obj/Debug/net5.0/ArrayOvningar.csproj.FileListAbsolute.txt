@@ -1,0 +1,16 @@
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ArrayOvningar\bin\Debug\net5.0\ArrayOvningar.exe
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ArrayOvningar\bin\Debug\net5.0\ArrayOvningar.deps.json
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ArrayOvningar\bin\Debug\net5.0\ArrayOvningar.runtimeconfig.json
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ArrayOvningar\bin\Debug\net5.0\ArrayOvningar.runtimeconfig.dev.json
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ArrayOvningar\bin\Debug\net5.0\ArrayOvningar.dll
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ArrayOvningar\bin\Debug\net5.0\ref\ArrayOvningar.dll
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ArrayOvningar\bin\Debug\net5.0\ArrayOvningar.pdb
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ArrayOvningar\obj\Debug\net5.0\ArrayOvningar.csproj.AssemblyReference.cache
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ArrayOvningar\obj\Debug\net5.0\ArrayOvningar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ArrayOvningar\obj\Debug\net5.0\ArrayOvningar.AssemblyInfoInputs.cache
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ArrayOvningar\obj\Debug\net5.0\ArrayOvningar.AssemblyInfo.cs
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ArrayOvningar\obj\Debug\net5.0\ArrayOvningar.csproj.CoreCompileInputs.cache
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ArrayOvningar\obj\Debug\net5.0\ArrayOvningar.dll
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ArrayOvningar\obj\Debug\net5.0\ref\ArrayOvningar.dll
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ArrayOvningar\obj\Debug\net5.0\ArrayOvningar.pdb
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ArrayOvningar\obj\Debug\net5.0\ArrayOvningar.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ovn3\bin\Debug\net5.0\ovn3.exe
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ovn3\bin\Debug\net5.0\ovn3.deps.json
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ovn3\bin\Debug\net5.0\ovn3.runtimeconfig.json
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ovn3\bin\Debug\net5.0\ovn3.runtimeconfig.dev.json
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ovn3\bin\Debug\net5.0\ovn3.dll
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ovn3\bin\Debug\net5.0\ref\ovn3.dll
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ovn3\bin\Debug\net5.0\ovn3.pdb
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ovn3\obj\Debug\net5.0\ovn3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ovn3\obj\Debug\net5.0\ovn3.AssemblyInfoInputs.cache
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ovn3\obj\Debug\net5.0\ovn3.AssemblyInfo.cs
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ovn3\obj\Debug\net5.0\ovn3.csproj.CoreCompileInputs.cache
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ovn3\obj\Debug\net5.0\ovn3.dll
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ovn3\obj\Debug\net5.0\ref\ovn3.dll
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ovn3\obj\Debug\net5.0\ovn3.pdb
+C:\Users\arger\Documents\GitHub\NET21OOP\ArrayOvningar\ovn3\obj\Debug\net5.0\ovn3.genruntimeconfig.cache

@@ -11,7 +11,7 @@ namespace if_ovning_5_boll
             int verticalSpeed = 1;
             int horizontalSpeed = 1;
 
-            int minHorizontal = 1;
+            int minHorizontal = 2;
             int maxHorizontal = 112;
             int minVertical = 2;
             int maxVertical = 25;
@@ -103,7 +103,7 @@ namespace if_ovning_5_boll
                     Console.SetCursorPosition(horizontalPosition, verticalPosition + 1);
                     Console.Write(" (.. )");
                     Console.SetCursorPosition(horizontalPosition, verticalPosition + 2);
-                    Console.Write("(\")(\")ɔ");
+                    Console.Write("(\")(\")?");
                 }
 
                 //cat vMax = 25 hMax = 90
@@ -116,7 +116,7 @@ namespace if_ovning_5_boll
                 //Console.SetCursorPosition(horizontalPosition, verticalPosition + 3);
                 //Console.Write("     '---''(_/._)-'(_\\_)     ");
 
-                System.Threading.Thread.Sleep(80);
+                System.Threading.Thread.Sleep(60);
 
                 Console.SetCursorPosition(horizontalPosition, verticalPosition);
                 Console.Write("      ");

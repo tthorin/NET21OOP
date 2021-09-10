@@ -10,16 +10,14 @@ namespace NET21_inlämning1
             //set up our variables
             int bet = 0;
             int minBet = 50;
-            int luckyNumber = 0;
             Random dice = new Random();
             int startPix = 500;
             int currentPix = startPix;
             bool keepPlaying = true;
-            string input = "";
             int diceToRoll = 3;
             int[] diceResult = new int[diceToRoll];
-            int sameNumber = 0;
-            int winnings = 0;
+            
+            
 
             //clear screen and print instructions
             Console.Clear();
@@ -42,15 +40,11 @@ namespace NET21_inlämning1
             //main game loop
             while (keepPlaying)
             {
-                //make sure we reset winnings and diceroll match numbers
-                sameNumber = 0;
-                winnings = 0;
+                
                 //loop to check bet amount to make sure its more then min bet and less then current pixamount
                 do
                 {
-                    Console.Write("\nHur mycket vill du satsa? ");
-                    input = Console.ReadLine();
-                    bet = InputToInt(input);
+                    bet = GetIntInput("Hur mycket vill du satsa? ");
                     if (bet < minBet)
                     {
                         Console.WriteLine("Minsta insatsen är 50 pix, var god försök igen.");
@@ -66,11 +60,11 @@ namespace NET21_inlämning1
                 currentPix -= bet;
 
                 //loop to ask for number user wants to bet on, we want to make sure its a number between 1 and 6
+                int luckyNumber = 0;
                 do
                 {
-                    Console.Write("Vilket är ditt lyckotal? ");
-                    input = Console.ReadLine();
-                    luckyNumber = InputToInt(input);
+                    luckyNumber = GetIntInput("Vilket är ditt lyckotal? ");
+                    //GetIntInput only returns positive numbers so we only need to make sure its 6 or lower
                     if (luckyNumber > 6)
                     {
                         Console.WriteLine("Ditt tal behöver vara mellan 1 och 6, försök igen.");
@@ -78,6 +72,7 @@ namespace NET21_inlämning1
                 } while (luckyNumber < 0 || luckyNumber > 6);
 
                 //generate dice results and check for match against users number
+                int sameNumber = 0;
                 for (int i = 0; i < diceToRoll; i++)
                 {
                     diceResult[i] = dice.Next(1, 7);
@@ -93,7 +88,7 @@ namespace NET21_inlämning1
                 //display result to user and calculate winnings if any and add them to pix account
                 if (sameNumber > 0)
                 {
-                    winnings = (sameNumber + 1) * bet;
+                    int winnings = (sameNumber + 1) * bet;
                     currentPix += winnings;
                     Console.WriteLine($"\nGrattis!! Du hade {sameNumber} rätt, du vann {winnings} pix!");
                 }
@@ -113,7 +108,7 @@ namespace NET21_inlämning1
                 else //ask if user wants to play again
                 {
                     Console.Write("\nSpela igen ([J]/n)? ");
-                    input = Console.ReadLine().ToLower();
+                    string input = (Console.ReadLine().ToLower()).Trim();
                     if (input == "n" || input == "nej") //make it easy too keep playing, everything besides n and nej starts a new round of the game
                     {
                         Console.WriteLine("Hoppas du har haft det kul! :)");
@@ -129,14 +124,18 @@ namespace NET21_inlämning1
             Console.Clear();
         }
         //============End of Main======================
-
-        //==================Start int InputToInt(string) method==============
-        //simple method to parse a string to make sure we can convert it
+        
+        //==================Start int GetIntInput(string "question") method==============
+        //simple method to ask for a int and make sure we can convert the input
         //to int
-        static int InputToInt(string input)
+        static int GetIntInput(string question = "Vänligen ange ett positivt heltal: ")
         {
             bool converted = false;
             int intValue = 0;
+
+            Console.Write(question);
+            string input = Console.ReadLine();
+
             //loop til we have valid conversion
             while (!converted)
             {
@@ -159,10 +158,10 @@ namespace NET21_inlämning1
             //return the converted value
             return intValue;
         }
-        //==================end int InputToInt(string) method==============
+    //==================end int GetIntInput(string "question") method==============
 
-        //==================Start void PrintDice(int[]) method==============
-        static void PrintDice(int[] diceResult)
+    //==================Start void PrintDice(int[]) method==============
+    static void PrintDice(int[] diceResult)
         {
             int numberOfDice = diceResult.Length;
             int diceHeight = 5;
@@ -172,9 +171,7 @@ namespace NET21_inlämning1
             int startColumn = Console.CursorLeft;
 
             Console.WriteLine("");
-
-            //TODO clean up
-            //┌─┐└┘│o
+            
             for (int dice = 0; dice < numberOfDice; dice++)
             {
                 if (dice > 0) startColumn += diceWidth + spaceBetweenDice;                

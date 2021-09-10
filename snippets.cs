@@ -1,7 +1,12 @@
-static int InputToInt (string input)
+//==========start of int GetIntInput (string "question") method===================
+//simple method to ask for a int and making sure the input can be converted.
+static int GetIntInput (string question = "Vänligen ange ett positivt heltal: ")
 {
+	Console.Write(question);
+	string input = Console.ReadLine();
 	bool converted = false;
 	int intValue = 0;
+	
     while (!converted)
     {
         converted = int.TryParse(input, out intValue);
@@ -19,3 +24,4 @@ static int InputToInt (string input)
     }
     return intValue;
 }
+//==========end of int GetIntInput (string "question") method===================

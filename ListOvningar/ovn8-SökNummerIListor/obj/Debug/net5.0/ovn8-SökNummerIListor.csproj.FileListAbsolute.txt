@@ -1,0 +1,15 @@
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn8-SökNummerIListor\bin\Debug\net5.0\ovn8-SökNummerIListor.exe
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn8-SökNummerIListor\bin\Debug\net5.0\ovn8-SökNummerIListor.deps.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn8-SökNummerIListor\bin\Debug\net5.0\ovn8-SökNummerIListor.runtimeconfig.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn8-SökNummerIListor\bin\Debug\net5.0\ovn8-SökNummerIListor.runtimeconfig.dev.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn8-SökNummerIListor\bin\Debug\net5.0\ovn8-SökNummerIListor.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn8-SökNummerIListor\bin\Debug\net5.0\ref\ovn8-SökNummerIListor.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn8-SökNummerIListor\bin\Debug\net5.0\ovn8-SökNummerIListor.pdb
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn8-SökNummerIListor\obj\Debug\net5.0\ovn8-SökNummerIListor.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn8-SökNummerIListor\obj\Debug\net5.0\ovn8-SökNummerIListor.AssemblyInfoInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn8-SökNummerIListor\obj\Debug\net5.0\ovn8-SökNummerIListor.AssemblyInfo.cs
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn8-SökNummerIListor\obj\Debug\net5.0\ovn8-SökNummerIListor.csproj.CoreCompileInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn8-SökNummerIListor\obj\Debug\net5.0\ovn8-SökNummerIListor.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn8-SökNummerIListor\obj\Debug\net5.0\ref\ovn8-SökNummerIListor.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn8-SökNummerIListor\obj\Debug\net5.0\ovn8-SökNummerIListor.pdb
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn8-SökNummerIListor\obj\Debug\net5.0\ovn8-SökNummerIListor.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn9-SortedList\bin\Debug\net5.0\ovn9-SortedList.exe
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn9-SortedList\bin\Debug\net5.0\ovn9-SortedList.deps.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn9-SortedList\bin\Debug\net5.0\ovn9-SortedList.runtimeconfig.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn9-SortedList\bin\Debug\net5.0\ovn9-SortedList.runtimeconfig.dev.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn9-SortedList\bin\Debug\net5.0\ovn9-SortedList.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn9-SortedList\bin\Debug\net5.0\ref\ovn9-SortedList.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn9-SortedList\bin\Debug\net5.0\ovn9-SortedList.pdb
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn9-SortedList\obj\Debug\net5.0\ovn9-SortedList.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn9-SortedList\obj\Debug\net5.0\ovn9-SortedList.AssemblyInfoInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn9-SortedList\obj\Debug\net5.0\ovn9-SortedList.AssemblyInfo.cs
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn9-SortedList\obj\Debug\net5.0\ovn9-SortedList.csproj.CoreCompileInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn9-SortedList\obj\Debug\net5.0\ovn9-SortedList.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn9-SortedList\obj\Debug\net5.0\ref\ovn9-SortedList.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn9-SortedList\obj\Debug\net5.0\ovn9-SortedList.pdb
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn9-SortedList\obj\Debug\net5.0\ovn9-SortedList.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn10-Stack\bin\Debug\net5.0\ovn10-Stack.exe
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn10-Stack\bin\Debug\net5.0\ovn10-Stack.deps.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn10-Stack\bin\Debug\net5.0\ovn10-Stack.runtimeconfig.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn10-Stack\bin\Debug\net5.0\ovn10-Stack.runtimeconfig.dev.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn10-Stack\bin\Debug\net5.0\ovn10-Stack.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn10-Stack\bin\Debug\net5.0\ref\ovn10-Stack.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn10-Stack\bin\Debug\net5.0\ovn10-Stack.pdb
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn10-Stack\obj\Debug\net5.0\ovn10-Stack.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn10-Stack\obj\Debug\net5.0\ovn10-Stack.AssemblyInfoInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn10-Stack\obj\Debug\net5.0\ovn10-Stack.AssemblyInfo.cs
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn10-Stack\obj\Debug\net5.0\ovn10-Stack.csproj.CoreCompileInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn10-Stack\obj\Debug\net5.0\ovn10-Stack.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn10-Stack\obj\Debug\net5.0\ref\ovn10-Stack.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn10-Stack\obj\Debug\net5.0\ovn10-Stack.pdb
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn10-Stack\obj\Debug\net5.0\ovn10-Stack.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn6-Dictionary\obj\Debug\net5.0\ovn6-Dictionary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn6-Dictionary\obj\Debug\net5.0\ovn6-Dictionary.AssemblyInfoInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn6-Dictionary\obj\Debug\net5.0\ovn6-Dictionary.AssemblyInfo.cs
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn6-Dictionary\obj\Debug\net5.0\ovn6-Dictionary.csproj.CoreCompileInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn6-Dictionary\bin\Debug\net5.0\ovn6-Dictionary.exe
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn6-Dictionary\bin\Debug\net5.0\ovn6-Dictionary.deps.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn6-Dictionary\bin\Debug\net5.0\ovn6-Dictionary.runtimeconfig.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn6-Dictionary\bin\Debug\net5.0\ovn6-Dictionary.runtimeconfig.dev.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn6-Dictionary\bin\Debug\net5.0\ovn6-Dictionary.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn6-Dictionary\bin\Debug\net5.0\ref\ovn6-Dictionary.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn6-Dictionary\bin\Debug\net5.0\ovn6-Dictionary.pdb
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn6-Dictionary\obj\Debug\net5.0\ovn6-Dictionary.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn6-Dictionary\obj\Debug\net5.0\ref\ovn6-Dictionary.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn6-Dictionary\obj\Debug\net5.0\ovn6-Dictionary.pdb
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn6-Dictionary\obj\Debug\net5.0\ovn6-Dictionary.genruntimeconfig.cache

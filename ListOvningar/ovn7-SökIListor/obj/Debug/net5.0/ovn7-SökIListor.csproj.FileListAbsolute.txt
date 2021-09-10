@@ -1,0 +1,16 @@
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn7-SökIListor\bin\Debug\net5.0\ovn7-SökIListor.exe
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn7-SökIListor\bin\Debug\net5.0\ovn7-SökIListor.deps.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn7-SökIListor\bin\Debug\net5.0\ovn7-SökIListor.runtimeconfig.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn7-SökIListor\bin\Debug\net5.0\ovn7-SökIListor.runtimeconfig.dev.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn7-SökIListor\bin\Debug\net5.0\ovn7-SökIListor.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn7-SökIListor\bin\Debug\net5.0\ref\ovn7-SökIListor.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn7-SökIListor\bin\Debug\net5.0\ovn7-SökIListor.pdb
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn7-SökIListor\obj\Debug\net5.0\ovn7-SökIListor.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn7-SökIListor\obj\Debug\net5.0\ovn7-SökIListor.AssemblyInfoInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn7-SökIListor\obj\Debug\net5.0\ovn7-SökIListor.AssemblyInfo.cs
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn7-SökIListor\obj\Debug\net5.0\ovn7-SökIListor.csproj.CoreCompileInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn7-SökIListor\obj\Debug\net5.0\ovn7-SökIListor.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn7-SökIListor\obj\Debug\net5.0\ref\ovn7-SökIListor.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn7-SökIListor\obj\Debug\net5.0\ovn7-SökIListor.pdb
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn7-SökIListor\obj\Debug\net5.0\ovn7-SökIListor.genruntimeconfig.cache
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn7-SökIListor\obj\Debug\net5.0\ovn7-SökIListor.csproj.AssemblyReference.cache

@@ -1,0 +1,15 @@
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn11-Queue\bin\Debug\net5.0\ovn11-Queue.exe
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn11-Queue\bin\Debug\net5.0\ovn11-Queue.deps.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn11-Queue\bin\Debug\net5.0\ovn11-Queue.runtimeconfig.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn11-Queue\bin\Debug\net5.0\ovn11-Queue.runtimeconfig.dev.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn11-Queue\bin\Debug\net5.0\ovn11-Queue.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn11-Queue\bin\Debug\net5.0\ref\ovn11-Queue.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn11-Queue\bin\Debug\net5.0\ovn11-Queue.pdb
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn11-Queue\obj\Debug\net5.0\ovn11-Queue.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn11-Queue\obj\Debug\net5.0\ovn11-Queue.AssemblyInfoInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn11-Queue\obj\Debug\net5.0\ovn11-Queue.AssemblyInfo.cs
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn11-Queue\obj\Debug\net5.0\ovn11-Queue.csproj.CoreCompileInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn11-Queue\obj\Debug\net5.0\ovn11-Queue.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn11-Queue\obj\Debug\net5.0\ref\ovn11-Queue.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn11-Queue\obj\Debug\net5.0\ovn11-Queue.pdb
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn11-Queue\obj\Debug\net5.0\ovn11-Queue.genruntimeconfig.cache

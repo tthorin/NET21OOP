@@ -1,0 +1,15 @@
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn5-ArrayList\bin\Debug\net5.0\ovn5-ArrayList.exe
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn5-ArrayList\bin\Debug\net5.0\ovn5-ArrayList.deps.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn5-ArrayList\bin\Debug\net5.0\ovn5-ArrayList.runtimeconfig.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn5-ArrayList\bin\Debug\net5.0\ovn5-ArrayList.runtimeconfig.dev.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn5-ArrayList\bin\Debug\net5.0\ovn5-ArrayList.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn5-ArrayList\bin\Debug\net5.0\ref\ovn5-ArrayList.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn5-ArrayList\bin\Debug\net5.0\ovn5-ArrayList.pdb
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn5-ArrayList\obj\Debug\net5.0\ovn5-ArrayList.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn5-ArrayList\obj\Debug\net5.0\ovn5-ArrayList.AssemblyInfoInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn5-ArrayList\obj\Debug\net5.0\ovn5-ArrayList.AssemblyInfo.cs
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn5-ArrayList\obj\Debug\net5.0\ovn5-ArrayList.csproj.CoreCompileInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn5-ArrayList\obj\Debug\net5.0\ovn5-ArrayList.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn5-ArrayList\obj\Debug\net5.0\ref\ovn5-ArrayList.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn5-ArrayList\obj\Debug\net5.0\ovn5-ArrayList.pdb
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn5-ArrayList\obj\Debug\net5.0\ovn5-ArrayList.genruntimeconfig.cache

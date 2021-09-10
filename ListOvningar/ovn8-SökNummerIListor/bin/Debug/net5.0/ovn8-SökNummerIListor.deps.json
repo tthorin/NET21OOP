@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ovn8-SökNummerIListor/1.0.0": {
+        "runtime": {
+          "ovn8-SökNummerIListor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ovn8-SökNummerIListor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

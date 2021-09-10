@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ovn9-SortedList/1.0.0": {
+        "runtime": {
+          "ovn9-SortedList.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ovn9-SortedList/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

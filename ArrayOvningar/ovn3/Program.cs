@@ -9,10 +9,11 @@ namespace ovn3
             Console.Write("Vad heter du? ");
             string name = Console.ReadLine().Trim();
             string backwards = "";
+            
 
             for (int i = name.Length -1; i >= 0; i--)
             {
-                backwards += name[i].ToString();
+                backwards += name[i];
             }
             Console.Write("Ditt namn baklänges blir: "+backwards);
         }

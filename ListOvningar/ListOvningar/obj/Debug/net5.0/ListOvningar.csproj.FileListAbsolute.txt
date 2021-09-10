@@ -1,0 +1,16 @@
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ListOvningar\bin\Debug\net5.0\ListOvningar.exe
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ListOvningar\bin\Debug\net5.0\ListOvningar.deps.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ListOvningar\bin\Debug\net5.0\ListOvningar.runtimeconfig.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ListOvningar\bin\Debug\net5.0\ListOvningar.runtimeconfig.dev.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ListOvningar\bin\Debug\net5.0\ListOvningar.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ListOvningar\bin\Debug\net5.0\ref\ListOvningar.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ListOvningar\bin\Debug\net5.0\ListOvningar.pdb
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ListOvningar\obj\Debug\net5.0\ListOvningar.csproj.AssemblyReference.cache
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ListOvningar\obj\Debug\net5.0\ListOvningar.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ListOvningar\obj\Debug\net5.0\ListOvningar.AssemblyInfoInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ListOvningar\obj\Debug\net5.0\ListOvningar.AssemblyInfo.cs
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ListOvningar\obj\Debug\net5.0\ListOvningar.csproj.CoreCompileInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ListOvningar\obj\Debug\net5.0\ListOvningar.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ListOvningar\obj\Debug\net5.0\ref\ListOvningar.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ListOvningar\obj\Debug\net5.0\ListOvningar.pdb
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ListOvningar\obj\Debug\net5.0\ListOvningar.genruntimeconfig.cache

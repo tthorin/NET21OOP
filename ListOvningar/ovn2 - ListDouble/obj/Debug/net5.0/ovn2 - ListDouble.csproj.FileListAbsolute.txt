@@ -1,0 +1,16 @@
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn2 - ListDouble\obj\Debug\net5.0\ovn2 - ListDouble.csproj.AssemblyReference.cache
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn2 - ListDouble\obj\Debug\net5.0\ovn2 - ListDouble.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn2 - ListDouble\obj\Debug\net5.0\ovn2 - ListDouble.AssemblyInfoInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn2 - ListDouble\obj\Debug\net5.0\ovn2 - ListDouble.AssemblyInfo.cs
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn2 - ListDouble\obj\Debug\net5.0\ovn2 - ListDouble.csproj.CoreCompileInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn2 - ListDouble\bin\Debug\net5.0\ovn2 - ListDouble.exe
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn2 - ListDouble\bin\Debug\net5.0\ovn2 - ListDouble.deps.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn2 - ListDouble\bin\Debug\net5.0\ovn2 - ListDouble.runtimeconfig.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn2 - ListDouble\bin\Debug\net5.0\ovn2 - ListDouble.runtimeconfig.dev.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn2 - ListDouble\bin\Debug\net5.0\ovn2 - ListDouble.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn2 - ListDouble\bin\Debug\net5.0\ref\ovn2 - ListDouble.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn2 - ListDouble\bin\Debug\net5.0\ovn2 - ListDouble.pdb
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn2 - ListDouble\obj\Debug\net5.0\ovn2 - ListDouble.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn2 - ListDouble\obj\Debug\net5.0\ref\ovn2 - ListDouble.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn2 - ListDouble\obj\Debug\net5.0\ovn2 - ListDouble.pdb
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn2 - ListDouble\obj\Debug\net5.0\ovn2 - ListDouble.genruntimeconfig.cache

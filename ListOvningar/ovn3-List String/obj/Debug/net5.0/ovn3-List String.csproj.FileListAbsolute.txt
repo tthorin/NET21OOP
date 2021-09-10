@@ -1,0 +1,16 @@
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn3-List String\bin\Debug\net5.0\ovn3-List String.exe
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn3-List String\bin\Debug\net5.0\ovn3-List String.deps.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn3-List String\bin\Debug\net5.0\ovn3-List String.runtimeconfig.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn3-List String\bin\Debug\net5.0\ovn3-List String.runtimeconfig.dev.json
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn3-List String\bin\Debug\net5.0\ovn3-List String.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn3-List String\bin\Debug\net5.0\ref\ovn3-List String.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn3-List String\bin\Debug\net5.0\ovn3-List String.pdb
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn3-List String\obj\Debug\net5.0\ovn3-List String.csproj.AssemblyReference.cache
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn3-List String\obj\Debug\net5.0\ovn3-List String.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn3-List String\obj\Debug\net5.0\ovn3-List String.AssemblyInfoInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn3-List String\obj\Debug\net5.0\ovn3-List String.AssemblyInfo.cs
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn3-List String\obj\Debug\net5.0\ovn3-List String.csproj.CoreCompileInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn3-List String\obj\Debug\net5.0\ovn3-List String.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn3-List String\obj\Debug\net5.0\ref\ovn3-List String.dll
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn3-List String\obj\Debug\net5.0\ovn3-List String.pdb
+D:\Arger\Documents\GitHub\NET21OOP\ListOvningar\ovn3-List String\obj\Debug\net5.0\ovn3-List String.genruntimeconfig.cache

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arger\\Documents\\GitHub\\NET21OOP\\ArrayOvningar\\ovn7\\ovn7.csproj": {}
+    "D:\\Arger\\Documents\\GitHub\\NET21OOP\\ArrayOvningar\\ovn7\\ovn7.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arger\\Documents\\GitHub\\NET21OOP\\ArrayOvningar\\ovn7\\ovn7.csproj": {
+    "D:\\Arger\\Documents\\GitHub\\NET21OOP\\ArrayOvningar\\ovn7\\ovn7.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arger\\Documents\\GitHub\\NET21OOP\\ArrayOvningar\\ovn7\\ovn7.csproj",
+        "projectUniqueName": "D:\\Arger\\Documents\\GitHub\\NET21OOP\\ArrayOvningar\\ovn7\\ovn7.csproj",
         "projectName": "ovn7",
-        "projectPath": "C:\\Users\\arger\\Documents\\GitHub\\NET21OOP\\ArrayOvningar\\ovn7\\ovn7.csproj",
-        "packagesPath": "C:\\Users\\arger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arger\\Documents\\GitHub\\NET21OOP\\ArrayOvningar\\ovn7\\obj\\",
+        "projectPath": "D:\\Arger\\Documents\\GitHub\\NET21OOP\\ArrayOvningar\\ovn7\\ovn7.csproj",
+        "packagesPath": "C:\\Users\\Arger\\.nuget\\packages\\",
+        "outputPath": "D:\\Arger\\Documents\\GitHub\\NET21OOP\\ArrayOvningar\\ovn7\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\CodingStuff\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\arger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Arger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

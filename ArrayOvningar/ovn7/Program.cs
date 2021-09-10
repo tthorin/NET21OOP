@@ -33,7 +33,7 @@ namespace ovn7
                     }
 
                 }
-                Console.SetCursorPosition(0, gameMap.GetUpperBound(1));
+                Console.SetCursorPosition(0, gameMap.GetUpperBound(1)+1);
             }
         }
     }

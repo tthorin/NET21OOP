@@ -45,12 +45,18 @@ namespace DenSaknadeKronan
             Console.WriteLine();
 
             Console.WriteLine($"Summa summarum:");
-            int utlägg = (10 - 1) * 3;
-            Console.WriteLine($"De betalade 10 - 1 kronor var, alltså 9*3 = {utlägg} kronor");
-            Console.WriteLine($"och donerade 2 kronor");
-            utlägg += 2;
-            Console.WriteLine($"Summan blir då: {utlägg}");
-            if (utlägg != 30) Console.WriteLine($"Error 404: Krona not found");
+            //int utlägg = (10 - 1) * 3;
+            //Console.WriteLine($"De betalade 10 - 1 kronor var, alltså 9*3 = {utlägg} kronor");
+            //Console.WriteLine($"och donerade 2 kronor");
+            //utlägg += 2;
+            //Console.WriteLine($"Summan blir då: {utlägg}");
+            //if (utlägg != 30) Console.WriteLine($"Error 404: Krona not found");
+            double utlägg = 25d / 3d;
+            Console.WriteLine(utlägg);
+
+
+            Console.WriteLine("\nVad som händer är att dom försöker dela sin växel jämt mellan sig, men");
+            Console.WriteLine("man kan inte dela 5 enkronor jämt på 3 personer.");
         }
     }
 }

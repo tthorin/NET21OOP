@@ -1,0 +1,16 @@
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Langbord\bin\Debug\net5.0\Langbord.exe
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Langbord\bin\Debug\net5.0\Langbord.deps.json
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Langbord\bin\Debug\net5.0\Langbord.runtimeconfig.json
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Langbord\bin\Debug\net5.0\Langbord.runtimeconfig.dev.json
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Langbord\bin\Debug\net5.0\Langbord.dll
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Langbord\bin\Debug\net5.0\ref\Langbord.dll
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Langbord\bin\Debug\net5.0\Langbord.pdb
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Langbord\obj\Debug\net5.0\Langbord.csproj.AssemblyReference.cache
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Langbord\obj\Debug\net5.0\Langbord.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Langbord\obj\Debug\net5.0\Langbord.AssemblyInfoInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Langbord\obj\Debug\net5.0\Langbord.AssemblyInfo.cs
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Langbord\obj\Debug\net5.0\Langbord.csproj.CoreCompileInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Langbord\obj\Debug\net5.0\Langbord.dll
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Langbord\obj\Debug\net5.0\ref\Langbord.dll
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Langbord\obj\Debug\net5.0\Langbord.pdb
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Langbord\obj\Debug\net5.0\Langbord.genruntimeconfig.cache

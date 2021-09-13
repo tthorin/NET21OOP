@@ -1,0 +1,16 @@
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Metoder\bin\Debug\net5.0\DenSaknadeKronan.exe
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Metoder\bin\Debug\net5.0\DenSaknadeKronan.deps.json
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Metoder\bin\Debug\net5.0\DenSaknadeKronan.runtimeconfig.json
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Metoder\bin\Debug\net5.0\DenSaknadeKronan.runtimeconfig.dev.json
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Metoder\bin\Debug\net5.0\DenSaknadeKronan.dll
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Metoder\bin\Debug\net5.0\ref\DenSaknadeKronan.dll
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Metoder\bin\Debug\net5.0\DenSaknadeKronan.pdb
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Metoder\obj\Debug\net5.0\DenSaknadeKronan.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Metoder\obj\Debug\net5.0\DenSaknadeKronan.AssemblyInfoInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Metoder\obj\Debug\net5.0\DenSaknadeKronan.AssemblyInfo.cs
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Metoder\obj\Debug\net5.0\DenSaknadeKronan.csproj.CoreCompileInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Metoder\obj\Debug\net5.0\DenSaknadeKronan.dll
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Metoder\obj\Debug\net5.0\ref\DenSaknadeKronan.dll
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Metoder\obj\Debug\net5.0\DenSaknadeKronan.pdb
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Metoder\obj\Debug\net5.0\DenSaknadeKronan.genruntimeconfig.cache
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Metoder\obj\Debug\net5.0\DenSaknadeKronan.csproj.AssemblyReference.cache

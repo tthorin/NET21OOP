@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
-build_property.RootNamespace = NET21_inlämning1
-build_property.ProjectDir = D:\Arger\Documents\GitHub\NET21OOP\NET21-inlämning1\NET21-inlämning1\
+build_property.RootNamespace = Metoder
+build_property.ProjectDir = D:\Arger\Documents\GitHub\NET21OOP\Metoder\Metoder\

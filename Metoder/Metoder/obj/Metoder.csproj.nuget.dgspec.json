@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Arger\\Documents\\GitHub\\NET21OOP\\NET21-inlämning1\\NET21-inlämning1\\NET21-inlämning1.csproj": {}
+    "D:\\Arger\\Documents\\GitHub\\NET21OOP\\Metoder\\Metoder\\Metoder.csproj": {}
   },
   "projects": {
-    "D:\\Arger\\Documents\\GitHub\\NET21OOP\\NET21-inlämning1\\NET21-inlämning1\\NET21-inlämning1.csproj": {
+    "D:\\Arger\\Documents\\GitHub\\NET21OOP\\Metoder\\Metoder\\Metoder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Arger\\Documents\\GitHub\\NET21OOP\\NET21-inlämning1\\NET21-inlämning1\\NET21-inlämning1.csproj",
-        "projectName": "NET21-inlämning1",
-        "projectPath": "D:\\Arger\\Documents\\GitHub\\NET21OOP\\NET21-inlämning1\\NET21-inlämning1\\NET21-inlämning1.csproj",
+        "projectUniqueName": "D:\\Arger\\Documents\\GitHub\\NET21OOP\\Metoder\\Metoder\\Metoder.csproj",
+        "projectName": "Metoder",
+        "projectPath": "D:\\Arger\\Documents\\GitHub\\NET21OOP\\Metoder\\Metoder\\Metoder.csproj",
         "packagesPath": "C:\\Users\\Arger\\.nuget\\packages\\",
-        "outputPath": "D:\\Arger\\Documents\\GitHub\\NET21OOP\\NET21-inlämning1\\NET21-inlämning1\\obj\\",
+        "outputPath": "D:\\Arger\\Documents\\GitHub\\NET21OOP\\Metoder\\Metoder\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\CodingStuff\\Microsoft Visual Studio\\Shared\\NuGetPackages"

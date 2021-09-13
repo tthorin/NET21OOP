@@ -36,10 +36,10 @@ namespace Tagresa
         static DateTime ConvertToDateTime(string input)
         {
             int whereToSplit = input.IndexOf(":");
-            _ = int.TryParse(input.Substring(0, whereToSplit), out int timme);
-            _ = int.TryParse(input.Substring(whereToSplit + 1), out int minut);
+            _ = int.TryParse(input.Substring(0, whereToSplit), out int hour);
+            _ = int.TryParse(input.Substring(whereToSplit + 1), out int minute);
             DateTime today = DateTime.Now;
-            DateTime conversionResult = new DateTime(today.Year, today.Month, today.Day, timme, minut, 0);
+            DateTime conversionResult = new DateTime(today.Year, today.Month, today.Day, hour, minute, 0);
             return conversionResult;
         }
         //=================end ConvertToDateTime=================================

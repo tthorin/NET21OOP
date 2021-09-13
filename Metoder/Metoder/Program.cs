@@ -14,10 +14,7 @@ namespace DenSaknadeKronan
             int rödaKorset = 0;
 
             Console.WriteLine($"Bullarna kostar {bullar}");
-            Console.WriteLine($"Kalle har {kalle}");
-            Console.WriteLine($"Pelle har {pelle}");
-            Console.WriteLine($"Tjalle har {tjalle}");
-            Console.WriteLine();
+            moneyStatus(kalle, pelle, tjalle);
 
             Console.WriteLine($"Dom betalar {kalle + pelle + tjalle} kr.");
             int kvarEfterKöp = (kalle + pelle + tjalle) - bullar;
@@ -25,9 +22,7 @@ namespace DenSaknadeKronan
             pelle -= 10;
             tjalle -= 10;
 
-            Console.WriteLine($"Kalle har nu {kalle}.");
-            Console.WriteLine($"Pelle har nu {pelle}.");
-            Console.WriteLine($"Tjalle har nu {tjalle}.");
+            moneyStatus(kalle, pelle, tjalle);
             Console.WriteLine($"Och dom får tillbaka {kvarEfterKöp}.");
             Console.WriteLine();
 
@@ -37,26 +32,30 @@ namespace DenSaknadeKronan
             tjalle++;
             kvarEfterKöp -= 3;
             rödaKorset += kvarEfterKöp;
-            Console.WriteLine($"Kalle har nu {kalle}");
-            Console.WriteLine($"Pelle har nu {pelle}");
-            Console.WriteLine($"Tjalle har nu {tjalle}");
+            moneyStatus(kalle, pelle, tjalle);
             Console.WriteLine($"Och donerar {kvarEfterKöp} till Röda korset");
             kvarEfterKöp = 0;
             Console.WriteLine();
 
             Console.WriteLine($"Summa summarum:");
-            //int utlägg = (10 - 1) * 3;
-            //Console.WriteLine($"De betalade 10 - 1 kronor var, alltså 9*3 = {utlägg} kronor");
-            //Console.WriteLine($"och donerade 2 kronor");
-            //utlägg += 2;
-            //Console.WriteLine($"Summan blir då: {utlägg}");
-            //if (utlägg != 30) Console.WriteLine($"Error 404: Krona not found");
-            double utlägg = 25d / 3d;
-            Console.WriteLine(utlägg);
+            double utlägg = (25d / 3d) * 3d;
+            Console.WriteLine($"De betalade 25 / 3 kronor var, alltså {25d / 3d} * 3 = {utlägg} kronor");
+            Console.WriteLine("Och tog en enkrona var från växeln (1*3=3)");
+            utlägg += 3;
+            Console.WriteLine($"och donerade 2 kronor");
+            utlägg += 2;
+            Console.WriteLine($"Summan blir då: {utlägg}");
+            if (utlägg != 30) Console.WriteLine($"Error 404: Krona not found");
 
 
-            Console.WriteLine("\nVad som händer är att dom försöker dela sin växel jämt mellan sig, men");
-            Console.WriteLine("man kan inte dela 5 enkronor jämt på 3 personer.");
+        }
+
+        private static void moneyStatus(int kalle, int pelle, int tjalle)
+        {
+            Console.WriteLine($"Kalle har {kalle}");
+            Console.WriteLine($"Pelle har {pelle}");
+            Console.WriteLine($"Tjalle har {tjalle}");
+            Console.WriteLine();
         }
     }
 }

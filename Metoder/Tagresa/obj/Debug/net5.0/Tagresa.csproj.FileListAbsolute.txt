@@ -1,0 +1,16 @@
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Tagresa\bin\Debug\net5.0\Tagresa.exe
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Tagresa\bin\Debug\net5.0\Tagresa.deps.json
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Tagresa\bin\Debug\net5.0\Tagresa.runtimeconfig.json
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Tagresa\bin\Debug\net5.0\Tagresa.runtimeconfig.dev.json
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Tagresa\bin\Debug\net5.0\Tagresa.dll
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Tagresa\bin\Debug\net5.0\ref\Tagresa.dll
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Tagresa\bin\Debug\net5.0\Tagresa.pdb
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Tagresa\obj\Debug\net5.0\Tagresa.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Tagresa\obj\Debug\net5.0\Tagresa.AssemblyInfoInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Tagresa\obj\Debug\net5.0\Tagresa.AssemblyInfo.cs
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Tagresa\obj\Debug\net5.0\Tagresa.csproj.CoreCompileInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Tagresa\obj\Debug\net5.0\Tagresa.dll
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Tagresa\obj\Debug\net5.0\ref\Tagresa.dll
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Tagresa\obj\Debug\net5.0\Tagresa.pdb
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Tagresa\obj\Debug\net5.0\Tagresa.genruntimeconfig.cache
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Tagresa\obj\Debug\net5.0\Tagresa.csproj.AssemblyReference.cache

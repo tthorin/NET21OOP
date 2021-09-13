@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DenSaknadeKronan", "Metoder
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Langbord", "Langbord\Langbord.csproj", "{36717012-AC6B-4EA2-B31B-BF2F983150F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tagresa", "Tagresa\Tagresa.csproj", "{405A437E-5AAB-449E-B89E-4010A6D6600D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{36717012-AC6B-4EA2-B31B-BF2F983150F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36717012-AC6B-4EA2-B31B-BF2F983150F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36717012-AC6B-4EA2-B31B-BF2F983150F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{405A437E-5AAB-449E-B89E-4010A6D6600D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{405A437E-5AAB-449E-B89E-4010A6D6600D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{405A437E-5AAB-449E-B89E-4010A6D6600D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{405A437E-5AAB-449E-B89E-4010A6D6600D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

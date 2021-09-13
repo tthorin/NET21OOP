@@ -1,0 +1,16 @@
+D:\Arger\Documents\GitHub\NET21OOP\BankDemo\BankDemo\obj\Debug\net5.0\BankDemo.csproj.AssemblyReference.cache
+D:\Arger\Documents\GitHub\NET21OOP\BankDemo\BankDemo\obj\Debug\net5.0\BankDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arger\Documents\GitHub\NET21OOP\BankDemo\BankDemo\obj\Debug\net5.0\BankDemo.AssemblyInfoInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\BankDemo\BankDemo\obj\Debug\net5.0\BankDemo.AssemblyInfo.cs
+D:\Arger\Documents\GitHub\NET21OOP\BankDemo\BankDemo\obj\Debug\net5.0\BankDemo.csproj.CoreCompileInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\BankDemo\BankDemo\bin\Debug\net5.0\BankDemo.exe
+D:\Arger\Documents\GitHub\NET21OOP\BankDemo\BankDemo\bin\Debug\net5.0\BankDemo.deps.json
+D:\Arger\Documents\GitHub\NET21OOP\BankDemo\BankDemo\bin\Debug\net5.0\BankDemo.runtimeconfig.json
+D:\Arger\Documents\GitHub\NET21OOP\BankDemo\BankDemo\bin\Debug\net5.0\BankDemo.runtimeconfig.dev.json
+D:\Arger\Documents\GitHub\NET21OOP\BankDemo\BankDemo\bin\Debug\net5.0\BankDemo.dll
+D:\Arger\Documents\GitHub\NET21OOP\BankDemo\BankDemo\bin\Debug\net5.0\ref\BankDemo.dll
+D:\Arger\Documents\GitHub\NET21OOP\BankDemo\BankDemo\bin\Debug\net5.0\BankDemo.pdb
+D:\Arger\Documents\GitHub\NET21OOP\BankDemo\BankDemo\obj\Debug\net5.0\BankDemo.dll
+D:\Arger\Documents\GitHub\NET21OOP\BankDemo\BankDemo\obj\Debug\net5.0\ref\BankDemo.dll
+D:\Arger\Documents\GitHub\NET21OOP\BankDemo\BankDemo\obj\Debug\net5.0\BankDemo.pdb
+D:\Arger\Documents\GitHub\NET21OOP\BankDemo\BankDemo\obj\Debug\net5.0\BankDemo.genruntimeconfig.cache

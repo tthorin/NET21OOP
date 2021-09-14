@@ -75,6 +75,14 @@ namespace Kalender
             }
             calendarSeparator += "┤";
 
+            string bottomCalendarSeparator = "";
+            for (int i = 0; i < 7; i++)
+            {
+                if (i == 0) bottomCalendarSeparator += "└" + new string('─', dayWidth);
+                else bottomCalendarSeparator += "┴" + new string('─', dayWidth);
+            }
+            bottomCalendarSeparator += "┘";
+
             Console.WriteLine(topCalendarSeparator);
             string dataline = "│(0)│(1)│(2)│(3)│(4)│(5)│(6)│";
             string dayLine = dataline;
@@ -89,7 +97,50 @@ namespace Kalender
             }
             Console.WriteLine(dayLine);
             Console.WriteLine(calendarSeparator);
+            int pos = startFrom;
+            dayLine = dataline;
 
+            string emptyLine = new string(' ', dayWidth);
+            for (int day = 0; day < startFrom; day++)
+            {
+                string number = $"({day})";
+                dayLine = dayLine.Replace(number, emptyLine);
+                infoLine = infoLine.Replace(number, emptyLine);
+            }
+
+            for (int day = 1; day <= monthLength; day++)
+            {
+                string number = $"({pos})";
+                output = " " + day.ToString().PadRight(dayWidth).Substring(0, dayWidth - 1);
+                dayLine = dayLine.Replace(number, output);
+                infoLine = infoLine.Replace(number, emptyLine);
+                pos++;
+                if (pos > 6)
+                {
+                    pos = 0;
+                    Console.WriteLine(dayLine);
+                    Console.WriteLine(infoLine);
+                    Console.WriteLine(infoLine);
+                    if (day == monthLength) Console.WriteLine(bottomCalendarSeparator);
+                    else Console.WriteLine(calendarSeparator);
+                    dayLine = dataline;
+                    infoLine = dataline;
+                }
+            }
+            if (pos > 0)
+            {
+                for (int day = pos; day < 7; day++)
+                {
+                    string number = $"({day})";
+                    dayLine = dayLine.Replace(number, emptyLine);
+                    infoLine = infoLine.Replace(number, emptyLine);
+                }
+                Console.WriteLine(dayLine);
+                Console.WriteLine(infoLine);
+                Console.WriteLine(infoLine);
+                Console.WriteLine(bottomCalendarSeparator);
+            }
+            Console.ReadKey();
 
 
 

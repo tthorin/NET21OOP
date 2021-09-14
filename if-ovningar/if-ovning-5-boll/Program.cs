@@ -19,21 +19,8 @@ namespace if_ovning_5_boll
             Console.CursorVisible = false;
             Random rng = new Random();
 
-            //for (int i = 0; i < 25; i++)
-            //{
-            //    if (i > 20)
-            //        Console.BackgroundColor = ConsoleColor.Green;
-            //    else
-            //        Console.BackgroundColor = ConsoleColor.Blue;
-            //    for (int j = 0; j < 120; j++)
-            //    {
-            //        Console.Write(" ");
-            //    }
-            //}
-
             while (true)
             {
-                //Console.Clear();
                 if (horizontalPosition > maxHorizontal)
                 {
                     horizontalSpeed = -1;
@@ -82,11 +69,6 @@ namespace if_ovning_5_boll
                 //slumpvis färg lösning från https://stackoverflow.com/questions/17456788/how-to-randomly-pick-one-of-known-console-colors-for-text
                 Console.ForegroundColor = (ConsoleColor)rng.Next(1, 16);
 
-                //Console.SetCursorPosition(horizontalPosition, verticalPosition);
-                //Console.Write("☺");
-
-
-                //rabbit vMax=25 hMax = 112
                 if (horizontalSpeed > 0)
                 {
                     Console.SetCursorPosition(horizontalPosition, verticalPosition);
@@ -105,16 +87,6 @@ namespace if_ovning_5_boll
                     Console.SetCursorPosition(horizontalPosition, verticalPosition + 2);
                     Console.Write("(\")(\")?");
                 }
-
-                //cat vMax = 25 hMax = 90
-                //Console.SetCursorPosition(horizontalPosition, verticalPosition);
-                //Console.Write("Zzzzz  |\\      _,,,--,,_     ");
-                //Console.SetCursorPosition(horizontalPosition, verticalPosition+1);
-                //Console.Write("       /,`.-'`'   ._  \\-;;,_ ");
-                //Console.SetCursorPosition(horizontalPosition, verticalPosition + 2);
-                //Console.Write("      |,4-  ) )_   .;.(  `'-'");
-                //Console.SetCursorPosition(horizontalPosition, verticalPosition + 3);
-                //Console.Write("     '---''(_/._)-'(_\\_)     ");
 
                 System.Threading.Thread.Sleep(60);
 

@@ -1,0 +1,16 @@
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Kalender\bin\Debug\net5.0\Kalender.exe
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Kalender\bin\Debug\net5.0\Kalender.deps.json
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Kalender\bin\Debug\net5.0\Kalender.runtimeconfig.json
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Kalender\bin\Debug\net5.0\Kalender.runtimeconfig.dev.json
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Kalender\bin\Debug\net5.0\Kalender.dll
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Kalender\bin\Debug\net5.0\ref\Kalender.dll
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Kalender\bin\Debug\net5.0\Kalender.pdb
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Kalender\obj\Debug\net5.0\Kalender.csproj.AssemblyReference.cache
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Kalender\obj\Debug\net5.0\Kalender.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Kalender\obj\Debug\net5.0\Kalender.AssemblyInfoInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Kalender\obj\Debug\net5.0\Kalender.AssemblyInfo.cs
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Kalender\obj\Debug\net5.0\Kalender.csproj.CoreCompileInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Kalender\obj\Debug\net5.0\Kalender.dll
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Kalender\obj\Debug\net5.0\ref\Kalender.dll
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Kalender\obj\Debug\net5.0\Kalender.pdb
+D:\Arger\Documents\GitHub\NET21OOP\Metoder\Kalender\obj\Debug\net5.0\Kalender.genruntimeconfig.cache

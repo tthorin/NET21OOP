@@ -1,0 +1,15 @@
+D:\Arger\Documents\GitHub\NET21OOP\FarmerGoatWolfLettuce\FarmerGoatWolfLettuce\bin\Debug\net5.0\FarmerGoatWolfLettuce.exe
+D:\Arger\Documents\GitHub\NET21OOP\FarmerGoatWolfLettuce\FarmerGoatWolfLettuce\bin\Debug\net5.0\FarmerGoatWolfLettuce.deps.json
+D:\Arger\Documents\GitHub\NET21OOP\FarmerGoatWolfLettuce\FarmerGoatWolfLettuce\bin\Debug\net5.0\FarmerGoatWolfLettuce.runtimeconfig.json
+D:\Arger\Documents\GitHub\NET21OOP\FarmerGoatWolfLettuce\FarmerGoatWolfLettuce\bin\Debug\net5.0\FarmerGoatWolfLettuce.runtimeconfig.dev.json
+D:\Arger\Documents\GitHub\NET21OOP\FarmerGoatWolfLettuce\FarmerGoatWolfLettuce\bin\Debug\net5.0\FarmerGoatWolfLettuce.dll
+D:\Arger\Documents\GitHub\NET21OOP\FarmerGoatWolfLettuce\FarmerGoatWolfLettuce\bin\Debug\net5.0\ref\FarmerGoatWolfLettuce.dll
+D:\Arger\Documents\GitHub\NET21OOP\FarmerGoatWolfLettuce\FarmerGoatWolfLettuce\bin\Debug\net5.0\FarmerGoatWolfLettuce.pdb
+D:\Arger\Documents\GitHub\NET21OOP\FarmerGoatWolfLettuce\FarmerGoatWolfLettuce\obj\Debug\net5.0\FarmerGoatWolfLettuce.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arger\Documents\GitHub\NET21OOP\FarmerGoatWolfLettuce\FarmerGoatWolfLettuce\obj\Debug\net5.0\FarmerGoatWolfLettuce.AssemblyInfoInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\FarmerGoatWolfLettuce\FarmerGoatWolfLettuce\obj\Debug\net5.0\FarmerGoatWolfLettuce.AssemblyInfo.cs
+D:\Arger\Documents\GitHub\NET21OOP\FarmerGoatWolfLettuce\FarmerGoatWolfLettuce\obj\Debug\net5.0\FarmerGoatWolfLettuce.csproj.CoreCompileInputs.cache
+D:\Arger\Documents\GitHub\NET21OOP\FarmerGoatWolfLettuce\FarmerGoatWolfLettuce\obj\Debug\net5.0\FarmerGoatWolfLettuce.dll
+D:\Arger\Documents\GitHub\NET21OOP\FarmerGoatWolfLettuce\FarmerGoatWolfLettuce\obj\Debug\net5.0\ref\FarmerGoatWolfLettuce.dll
+D:\Arger\Documents\GitHub\NET21OOP\FarmerGoatWolfLettuce\FarmerGoatWolfLettuce\obj\Debug\net5.0\FarmerGoatWolfLettuce.pdb
+D:\Arger\Documents\GitHub\NET21OOP\FarmerGoatWolfLettuce\FarmerGoatWolfLettuce\obj\Debug\net5.0\FarmerGoatWolfLettuce.genruntimeconfig.cache

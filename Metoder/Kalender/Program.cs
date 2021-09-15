@@ -12,34 +12,6 @@
             Console.Clear();
         }
 
-        //============start Method int AskForNumber(string question)=============================
-        static int AskForNumber(string question)
-        {
-            Console.Write(question);
-            string input = Console.ReadLine();
-            return CheckConversion(input);
-        }
-        //============End Method int AskForNumber(string question)=============================
-
-        //============Start Method int CheckConversion(string stringToConvert)=============================
-        static int CheckConversion(string stringToConvert)
-        {
-            bool converted = false;
-            int number = 0;
-            do
-            {
-                converted = int.TryParse(stringToConvert, out number);
-                if (!converted)
-                {
-                    Console.Write("Vänligen använd endast siffror: ");
-                    stringToConvert = Console.ReadLine();
-                }
-
-            } while (!converted);
-            return number;
-        }
-        //============End Method int CheckConversion(string stringToConvert)=============================
-
         //============Start Method void Menu (int year, int month)=============================
         static void Menu(int year, int month)
         {
@@ -47,23 +19,7 @@
             bool exit = false;
             do
             {
-                if (year <1 || year > 9999)
-                {   
-                    if (year < 1)
-                    {
-                        year = 1;
-                        month = 1;
-                    }
-                    else
-                    {
-                        year = 9999;
-                        month = 12;
-                    }
-                    Console.Clear();
-                    Console.WriteLine("Denna kalender kan bara visa mella år 1 och 9999");
-                    Console.WriteLine("Tryck valfri knapp för att fortsätta.");
-                    Console.ReadKey(true);
-                }
+                CheckYear(ref year, ref month);
 
                 CalendarPage.Print(year, month);
 
@@ -105,6 +61,30 @@
             return;
         }
         //============End Method void Menu (int year, int month)=============================
+
+        //============Start Method void CheckYear(ref int year, ref int month)=============================
+        private static void CheckYear(ref int year, ref int month)
+        {
+            if (year < 1 || year > 9999)
+            {
+                if (year < 1)
+                {
+                    year = 1;
+                    month = 1;
+                }
+                else
+                {
+                    year = 9999;
+                    month = 12;
+                }
+                Console.Clear();
+                Console.WriteLine("Denna kalender kan bara visa mella år 1 och 9999");
+                Console.WriteLine("Tryck valfri knapp för att fortsätta.");
+                Console.ReadKey(true);
+            }
+            return;
+        }
+        //============End Method void CheckYear(ref int year, ref int month)=============================
     }
 
 }

@@ -25,11 +25,10 @@ namespace EnumOvn2
             dayName += input.Substring(1);
 
             object? objThing = null;
-            Enum.TryParse(typeof(Veckodagar),dayName, out objThing);
+            Enum.TryParse(typeof(Veckodagar), dayName, out objThing);
             Veckodagar day = (Veckodagar)objThing;
 
-            Console.WriteLine(day);
-
+            Console.WriteLine((int)day);            
         }
     }
 }

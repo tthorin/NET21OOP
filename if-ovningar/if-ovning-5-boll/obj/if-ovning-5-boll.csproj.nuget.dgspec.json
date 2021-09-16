@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Arger\\Documents\\GitHub\\NET21OOP\\if-ovningar\\if-ovning-5-boll\\if-ovning-5-boll.csproj": {}
+    "C:\\GitHub\\NET21OOP\\if-ovningar\\if-ovning-5-boll\\if-ovning-5-boll.csproj": {}
   },
   "projects": {
-    "D:\\Arger\\Documents\\GitHub\\NET21OOP\\if-ovningar\\if-ovning-5-boll\\if-ovning-5-boll.csproj": {
+    "C:\\GitHub\\NET21OOP\\if-ovningar\\if-ovning-5-boll\\if-ovning-5-boll.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Arger\\Documents\\GitHub\\NET21OOP\\if-ovningar\\if-ovning-5-boll\\if-ovning-5-boll.csproj",
+        "projectUniqueName": "C:\\GitHub\\NET21OOP\\if-ovningar\\if-ovning-5-boll\\if-ovning-5-boll.csproj",
         "projectName": "if-ovning-5-boll",
-        "projectPath": "D:\\Arger\\Documents\\GitHub\\NET21OOP\\if-ovningar\\if-ovning-5-boll\\if-ovning-5-boll.csproj",
-        "packagesPath": "C:\\Users\\Arger\\.nuget\\packages\\",
-        "outputPath": "D:\\Arger\\Documents\\GitHub\\NET21OOP\\if-ovningar\\if-ovning-5-boll\\obj\\",
+        "projectPath": "C:\\GitHub\\NET21OOP\\if-ovningar\\if-ovning-5-boll\\if-ovning-5-boll.csproj",
+        "packagesPath": "C:\\Users\\t_tho\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\NET21OOP\\if-ovningar\\if-ovning-5-boll\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\CodingStuff\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Arger\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\t_tho\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

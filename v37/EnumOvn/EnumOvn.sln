@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumOvn", "EnumOvn\EnumOvn.csproj", "{13247249-F6D2-479E-B651-BF4C0F0913F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumOvn2", "EnumOvn2\EnumOvn2.csproj", "{86F24C44-311B-44AE-BBAE-5D881375385B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13247249-F6D2-479E-B651-BF4C0F0913F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13247249-F6D2-479E-B651-BF4C0F0913F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13247249-F6D2-479E-B651-BF4C0F0913F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13247249-F6D2-479E-B651-BF4C0F0913F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86F24C44-311B-44AE-BBAE-5D881375385B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F24C44-311B-44AE-BBAE-5D881375385B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F24C44-311B-44AE-BBAE-5D881375385B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F24C44-311B-44AE-BBAE-5D881375385B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2BF759F-2891-4D11-9D83-03B447F573E9}
+	EndGlobalSection
+EndGlobal

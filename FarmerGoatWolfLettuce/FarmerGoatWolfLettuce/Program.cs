@@ -34,24 +34,22 @@ namespace FarmerAndTheGoatAndTheWolfAndTheLettuce
             //
             // Som exemplet nedan
             // --------------------------------------------------------------------------------------------------
-            MoveThingie(Thingies.Goat, Beach, Dinghy); // Flytta salladen från stranden till ekan
-            MoveThingie(Thingies.Farmer, Beach, Dinghy); // Flytta bonden från stranden till ekan
-
-            //Väl framme i ön
-            MoveThingie(Thingies.Goat, Dinghy, Island); // Flytta salladen från ekan till ön
-            MoveThingie(Thingies.Lettuce, Beach, Dinghy); // Flytta bonden från ekan till ön
-            MoveThingie(Thingies.Farmer, Dinghy, Island); // Flytta bonden från ekan till ön
-            MoveThingie(Thingies.Lettuce, Dinghy, Island); // Flytta bonden från ekan till ön
-            MoveThingie(Thingies.Goat, Island, Dinghy); // Flytta salladen från ekan till ön
-            MoveThingie(Thingies.Farmer, Island, Dinghy); // Flytta salladen från ekan till ön
-            MoveThingie(Thingies.Farmer, Dinghy, Beach); // Flytta salladen från ekan till ön
-            MoveThingie(Thingies.Goat, Dinghy, Beach); // Flytta salladen från ekan till ön
-            MoveThingie(Thingies.Wolf, Beach, Dinghy); // Flytta salladen från ekan till ön
-            MoveThingie(Thingies.Farmer, Beach, Dinghy); // Flytta salladen från ekan till ön
-            MoveThingie(Thingies.Wolf, Dinghy, Island); // Flytta salladen från ekan till ön
-            MoveThingie(Thingies.Goat, Beach, Dinghy); // Flytta salladen från ekan till ön
-            MoveThingie(Thingies.Farmer, Dinghy, Island); // Flytta salladen från ekan till ön
-            MoveThingie(Thingies.Goat, Dinghy, Island); // Flytta salladen från ekan till ön
+            MoveThingie(Thingies.Goat, Beach, Dinghy);
+            MoveThingie(Thingies.Farmer, Beach, Dinghy);
+            MoveThingie(Thingies.Goat, Dinghy, Island);
+            MoveThingie(Thingies.Lettuce, Beach, Dinghy);
+            MoveThingie(Thingies.Farmer, Dinghy, Island); 
+            MoveThingie(Thingies.Lettuce, Dinghy, Island);
+            MoveThingie(Thingies.Goat, Island, Dinghy);
+            MoveThingie(Thingies.Farmer, Island, Dinghy);
+            MoveThingie(Thingies.Farmer, Dinghy, Beach);
+            MoveThingie(Thingies.Goat, Dinghy, Beach);
+            MoveThingie(Thingies.Wolf, Beach, Dinghy); 
+            MoveThingie(Thingies.Farmer, Beach, Dinghy);
+            MoveThingie(Thingies.Wolf, Dinghy, Island);
+            MoveThingie(Thingies.Goat, Beach, Dinghy);
+            MoveThingie(Thingies.Farmer, Dinghy, Island);
+            MoveThingie(Thingies.Goat, Dinghy, Island);
 
         }
 

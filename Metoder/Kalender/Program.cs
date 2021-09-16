@@ -8,6 +8,8 @@
             DateTime today = DateTime.Now;
             int year = today.Year;
             int month = today.Month;
+            //int year = 9999;
+            //int month = 12;
             Menu(year, month);
             Console.Clear();
         }

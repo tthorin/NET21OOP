@@ -8,24 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Arger\\.nuget\\packages\\": {},
-    "D:\\CodingStuff\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\t_tho\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Arger\\Documents\\GitHub\\NET21OOP\\FarmerGoatWolfLettuce\\FarmerGoatWolfLettuce\\FarmerGoatWolfLettuce.csproj",
+      "projectUniqueName": "C:\\GitHub\\NET21OOP\\FarmerGoatWolfLettuce\\FarmerGoatWolfLettuce\\FarmerGoatWolfLettuce.csproj",
       "projectName": "FarmerGoatWolfLettuce",
-      "projectPath": "D:\\Arger\\Documents\\GitHub\\NET21OOP\\FarmerGoatWolfLettuce\\FarmerGoatWolfLettuce\\FarmerGoatWolfLettuce.csproj",
-      "packagesPath": "C:\\Users\\Arger\\.nuget\\packages\\",
-      "outputPath": "D:\\Arger\\Documents\\GitHub\\NET21OOP\\FarmerGoatWolfLettuce\\FarmerGoatWolfLettuce\\obj\\",
+      "projectPath": "C:\\GitHub\\NET21OOP\\FarmerGoatWolfLettuce\\FarmerGoatWolfLettuce\\FarmerGoatWolfLettuce.csproj",
+      "packagesPath": "C:\\Users\\t_tho\\.nuget\\packages\\",
+      "outputPath": "C:\\GitHub\\NET21OOP\\FarmerGoatWolfLettuce\\FarmerGoatWolfLettuce\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\CodingStuff\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Arger\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\t_tho\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -65,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

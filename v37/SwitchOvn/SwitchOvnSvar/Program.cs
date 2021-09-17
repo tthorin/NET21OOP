@@ -2,8 +2,8 @@
 
 namespace SwitchOvnSvar
 {
-    using System;
     using SwitchOvnSvar.Enums;
+    using System;
     class Program
     {
         static void Main(string[] args)
@@ -18,7 +18,7 @@ namespace SwitchOvnSvar
                 monthInput += input.Substring(1).ToLower();
             } while (!Enum.IsDefined(typeof(Months), monthInput));
 
-            Months month = (Months)Enum.Parse(typeof(Months),monthInput);
+            Months month = (Months)Enum.Parse(typeof(Months), monthInput);
 
             switch (month)
             {
@@ -64,10 +64,6 @@ namespace SwitchOvnSvar
                 default:
                     break;
             }
-
-
-
         }
-
     }
 }

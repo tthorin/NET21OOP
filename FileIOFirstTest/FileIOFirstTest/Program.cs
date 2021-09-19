@@ -10,7 +10,8 @@
             string line = "";
             try
             {
-                StreamReader sr = new StreamReader("d:\\arger\\ko.txt");
+                string pathAndFile = @"d:\arger\ko.txt";
+                StreamReader sr = new StreamReader(pathAndFile);
                 line = sr.ReadLine();
                 while (line != null)
                 {
@@ -18,11 +19,11 @@
                     line = sr.ReadLine();
                 }
                 sr.Close();
-                
+
             }
             catch (Exception e)
             {
-                Console.WriteLine("Exeption: "+e.Message);
+                Console.WriteLine("Exeption: " + e.Message);
             }
             finally
             {

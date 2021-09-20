@@ -7,18 +7,22 @@
     {
         static void Main(string[] args)
         {
-            Ball ballOne = new Ball();
-            Ball ballTwo = new Ball(1, -1, "*");
-            Ball ballThree = new Ball(-1, 1, "#");
-            ballOne.SetBallPosition(10, 10);
-            ballTwo.SetBallPosition(20, 5);
-            ballThree.SetBallPosition(60, 20);
+            Console.WindowHeight = 84;
+            Console.WindowWidth = 317;
+            Ball[] balls = new Ball[50];
+            for (int ball = 0; ball < balls.Length; ball++)
+            {
+                balls[ball] = new Ball();
+                balls[ball].RandomBallSetup();
+            }
             Console.CursorVisible = false;
             while (true)
             {
-                ballOne.MoveIt();
-                ballTwo.MoveIt();
-                ballThree.MoveIt();
+                Console.CursorVisible = false;
+                foreach (var ball in balls)
+                {
+                    ball.MoveIt();
+                }
                 Thread.Sleep(75);
             }
         }

@@ -1,57 +1,79 @@
 ﻿namespace BouncingBalls
 {
     using System;
+    using System.Collections.Generic;
     internal class Ball
     {
-        int X = 0;
-        int Y = 0;
-        int PlusX = 1;
-        int PlusY = 1;
+        double X = 0;
+        double Y = 0;
+        double PlusX = 1;
+        double PlusY = 1;
         string BallShape = "O";
+        int Trail = 5;
+        int MaxSpeed = 3;
+        Queue<int> XMemory = new();
+        Queue<int> YMemory = new();
 
-        public Ball(int plusX, int plusY, string ballShape)
-        {
-            PlusX = plusX;
-            PlusY = plusY;
-            BallShape = ballShape;
-        }
         public Ball()
         {
-            PlusX = 1;
-            PlusY = 1;
-        }
-        public Ball(string ballShape)
-        {
-            PlusX = 1;
-            PlusY = 1;
-            BallShape = ballShape;
+            for (int i = 0; i < Trail; i++)
+            {
+                XMemory.Enqueue(0);
+                YMemory.Enqueue(0);
+            }
         }
 
         private void CheckBoundaries()
         {
-            if (X <= 1 || X >= Console.WindowWidth -1)
+            if (X + PlusX < 0 || X + PlusX > (Console.WindowWidth-BallShape.Length))
             {
-                PlusX = -PlusX;
+                if (Math.Abs(PlusY)<0.3)
+                {
+                    if (PlusX > 0) X = 1;
+                    else X = Console.WindowWidth - BallShape.Length;
+                }
+                else PlusX = -PlusX;
             }
-            if (Y <= 1 || Y >= Console.WindowHeight - 1)
+            if (Y + PlusY < 0 || Y + PlusY > Console.WindowHeight)
             {
-                PlusY = -PlusY;
+                if (Math.Abs(PlusX) < 0.3)
+                {
+                    if (PlusY > 0) Y = 1;
+                    else Y = Console.WindowHeight;
+                }
+                else PlusY = -PlusY;
             }
         }
         public void MoveIt()
         {
             CheckBoundaries();
-            Console.SetCursorPosition(X, Y);
-            Console.Write(" ");
+            Console.SetCursorPosition(XMemory.Dequeue(), YMemory.Dequeue());
+            Console.Write(new string(' ',BallShape.Length));
             X += PlusX;
             Y += PlusY;
-            Console.SetCursorPosition(X, Y);
+            Console.SetCursorPosition((int)X, (int)Y);
             Console.Write(BallShape);
+            XMemory.Enqueue((int)X);
+            YMemory.Enqueue((int)Y);
         }
         public void SetBallPosition(int x, int y)
         {
             this.X = x;
             this.Y = y;
         }
+        public void RandomBallSetup()
+        {
+            Random rng = new();
+            do
+            {
+                PlusX = rng.NextDouble() * MaxSpeed;
+                PlusY = rng.NextDouble() * MaxSpeed;
+            } while (PlusX < 0.3d && PlusY < 0.3d);
+            X = rng.NextDouble() * Console.WindowWidth;
+            Y = rng.NextDouble() * Console.WindowHeight;
+            string[] ballShapes = new string[] { "*", "O", "0", "@", "#", ".","X","(-O-)" };
+            BallShape = ballShapes[rng.Next(0, ballShapes.Length)];
+        }
+
     }
 }

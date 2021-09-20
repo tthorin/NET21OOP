@@ -7,18 +7,19 @@
     {
         static void Main(string[] args)
         {
-            Console.WindowHeight = 84;
-            Console.WindowWidth = 317;
-            Ball[] balls = new Ball[50];
+            Console.WindowHeight = Console.LargestWindowHeight;
+            Console.WindowWidth = Console.LargestWindowWidth;
+            
+            Ball[] balls = new Ball[100];
             for (int ball = 0; ball < balls.Length; ball++)
             {
                 balls[ball] = new Ball();
-                balls[ball].RandomBallSetup();
             }
+
             Console.CursorVisible = false;
+
             while (true)
-            {
-                Console.CursorVisible = false;
+            {   
                 foreach (var ball in balls)
                 {
                     ball.MoveIt();

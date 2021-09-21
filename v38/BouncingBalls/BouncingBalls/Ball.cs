@@ -4,51 +4,65 @@
     using System.Collections.Generic;
     internal class Ball
     {
+        private double x;
         private double y;
         double PlusX = 1;
         double PlusY = 1;
         string BallShape = "O";
-        int Trail = 1;
-        int MaxSpeed = 3;
-        int maxX = Console.WindowWidth-1;
-        int maxY = Console.WindowHeight-1;
-        Queue<int> XMemory = new();
-        Queue<int> YMemory = new();
-        private double x;
+        int trail = 1;
+        int maxSpeed = 3;
+        static int maxX = Console.WindowWidth-1;
+        static int maxY = Console.WindowHeight-1;
+        Queue<int> xMemory = new();
+        Queue<int> yMemory = new();
 
         public double X
         {
             get => x;
             set
             {
-                if (value > Console.WindowWidth) x = Console.WindowWidth - BallShape.Length;
+                if (value > maxX-BallShape.Length) x = maxX - BallShape.Length;
+                else if (value < 0) x = 0;
                 else x = value;
             }
         }
-        public double Y { get => y; set => y = value; }
-
-        public Ball()
+        public double Y
         {
-            //SetUpTrail();
-            RandomBallSetup();
+            get => y; 
+            set
+            {
+                if (value > maxY) y = maxY;
+                else if (value < 0) y = 0;
+                else y = value;
+            }
         }
-        public Ball(double x = 1, double y = 1, double plusX = 0.75, double plusY = 2)
+
+        public Ball(bool randomSetup=true, int trail = 3)
+        {   
+            if (randomSetup) RandomBallSetup();
+            this.trail = trail;
+        }
+        public Ball(double x = 1, double y = 1, double plusX = 0.75, double plusY = 2, int trail = 1)
         {
             this.X = x;
             this.Y = y;
             this.PlusX = plusX;
             this.PlusY = plusY;
+            this.trail = trail;
         }
 
-        private void SetUpTrail()
+        public void MoveIt()
         {
-            for (int i = 0; i < Trail; i++)
-            {
-                XMemory.Enqueue(0);
-                YMemory.Enqueue(0);
-            }
+            CheckScreenSize();
+            CheckBoundaries();
+            DeleteOldBall();
+            X += PlusX; //update pos
+            Y += PlusY;
+            Console.SetCursorPosition((int)X, (int)Y);//move cursor to new pos
+            Console.Write(BallShape);//print ball
+            xMemory.Enqueue((int)X); //save pos
+            yMemory.Enqueue((int)Y);
         }
-
         private void CheckBoundaries()
         {
             //if the balls current pos + speed would make it go out of bounds left or right
@@ -78,35 +92,33 @@
                 else PlusY = -PlusY; //reverse
             }
         }
-        public void MoveIt()
-        {
-            CheckScreenSize();
-            CheckBoundaries();
-            if (XMemory.Count == Trail)
-            {
-                Console.SetCursorPosition(XMemory.Dequeue(), YMemory.Dequeue()); //get position of previously printed ball
-                Console.Write(new string(' ', BallShape.Length));//overwrite it 
-            }
-            X += PlusX; //update pos
-            Y += PlusY;
-            Console.SetCursorPosition((int)X, (int)Y);//move cursor to new pos
-            Console.Write(BallShape);//print ball
-            XMemory.Enqueue((int)X); //save pos
-            YMemory.Enqueue((int)Y);
-        }
 
         private void CheckScreenSize()
         {
             if (Console.WindowHeight != maxY+1 || Console.WindowWidth != maxX+1)
             {
-                //Console.Clear();
-                XMemory.Clear();
-                YMemory.Clear();
+                Console.Clear();
+                xMemory.Clear();
+                yMemory.Clear();
                 maxY = Console.WindowHeight-1;
                 maxX = Console.WindowWidth-1;
+                Console.CursorVisible = false;
             }
             return;
         }
+        private void DeleteOldBall()
+        {
+            if (xMemory.Count == trail)
+            {
+                int xToDelete = xMemory.Dequeue();
+                if (xToDelete > maxX) xToDelete = maxX - BallShape.Length;
+                int yToDelete = yMemory.Dequeue();
+                if (yToDelete > maxY) yToDelete = maxY;
+                Console.SetCursorPosition(xToDelete, yToDelete); //get position of previously printed ball
+                Console.Write(new string(' ', BallShape.Length));//overwrite it 
+            }
+        }
+
 
         public void SetBallPosition(double x, double y)
         {
@@ -128,8 +140,8 @@
             Random rng = new();
             do
             {
-                PlusX = rng.NextDouble() * MaxSpeed;
-                PlusY = rng.NextDouble() * MaxSpeed;
+                PlusX = rng.NextDouble() * maxSpeed;
+                PlusY = rng.NextDouble() * maxSpeed;
             } while (PlusX < 0.3d && PlusY < 0.3d); //discard balls that would move too slow
             X = rng.NextDouble() * Console.WindowWidth;
             Y = rng.NextDouble() * Console.WindowHeight;

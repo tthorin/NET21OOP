@@ -7,15 +7,17 @@
     {
         static void Main(string[] args)
         {
-            //Console.WindowHeight = Console.LargestWindowHeight;
-            //Console.WindowWidth = Console.LargestWindowWidth;
-            Console.WindowHeight = 60;
-            Console.WindowWidth = 250;
+#pragma warning disable CA1416 // Validate platform compatibility
+            Console.WindowHeight = Console.LargestWindowHeight;
+            Console.WindowWidth = Console.LargestWindowWidth;
+            //Console.WindowHeight = 60;
+            //Console.WindowWidth = 250;
+#pragma warning restore CA1416 // Validate platform compatibility
 
-            Ball[] balls = new Ball[50];
+            Ball[] balls = new Ball[200];
             for (int ball = 0; ball < balls.Length; ball++)
             {
-                balls[ball] = new Ball();
+                balls[ball] = new Ball(true,1);
             }
 
             Console.CursorVisible = false;

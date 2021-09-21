@@ -122,18 +122,8 @@
 
         public void SetBallPosition(double x, double y)
         {
-            if (x < 0 || x > (Console.WindowWidth - BallShape.Length))
-            {
-                if (x < 0) this.X = 0;
-                else this.X = Console.WindowWidth - BallShape.Length;
-            }
-            else this.X = x;
-            if (y < 0 || y > Console.WindowHeight)
-            {
-                if (y < 0) this.Y = 0;
-                else this.Y = Console.WindowHeight;
-            }
-            else this.Y = y;
+            this.X = x;
+            this.Y = y;
         }
         public void RandomBallSetup()
         {
@@ -143,8 +133,8 @@
                 PlusX = rng.NextDouble() * maxSpeed;
                 PlusY = rng.NextDouble() * maxSpeed;
             } while (PlusX < 0.3d && PlusY < 0.3d); //discard balls that would move too slow
-            X = rng.NextDouble() * Console.WindowWidth;
-            Y = rng.NextDouble() * Console.WindowHeight;
+            X = rng.NextDouble() * maxX;
+            Y = rng.NextDouble() * maxY;
             string[] ballShapes = new string[] { "*", "O", "0", "@", "#", ".", "X", "(-O-)", "o" };
             BallShape = ballShapes[rng.Next(0, ballShapes.Length)];
         }

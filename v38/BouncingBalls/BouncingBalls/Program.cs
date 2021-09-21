@@ -7,10 +7,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WindowHeight = Console.LargestWindowHeight;
-            Console.WindowWidth = Console.LargestWindowWidth;
-            
-            Ball[] balls = new Ball[100];
+            //Console.WindowHeight = Console.LargestWindowHeight;
+            //Console.WindowWidth = Console.LargestWindowWidth;
+            Console.WindowHeight = 60;
+            Console.WindowWidth = 250;
+
+            Ball[] balls = new Ball[50];
             for (int ball = 0; ball < balls.Length; ball++)
             {
                 balls[ball] = new Ball();

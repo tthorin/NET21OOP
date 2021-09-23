@@ -5,24 +5,27 @@
 
     class Program
     {
+        //ChartOfAccounts.Add(1910, "Kassa");
+        //    ChartOfAccounts.Add(1930, "Företagskonto");
+        //    ChartOfAccounts.Add(2440, "Leverantörsskuld");
+        //    ChartOfAccounts.Add(3010, "Försäljning");
+        //    ChartOfAccounts.Add(5410, "Datorinköp");
         static void Main(string[] args)
         {
             Accounting bok = new();
 
-            bok.CreateTransaction(1910, 0, 5000);
-            bok.CreateTransaction(2440, 5000, 0);
+            bok.CreateTransaction(5410, 10000, 0);
+            bok.CreateTransaction(1930, 0, 10000);
+            bok.CreateTransaction(3010, 100, 100);
+            bok.CreateTransaction(2440, 0, 0);
+            bok.CreateTransaction(5410, 0, -10000);
+            bok.CreateTransaction(1111, 0, -10000);
 
-            decimal debit = 0;
-            decimal credit = 0;
 
-            foreach (var trans in bok.Transactions)
-            {
-                Console.WriteLine("Konto: " + trans.Number + " " + trans.Label);
-                Console.WriteLine(" " + trans.Debit);
-                Console.WriteLine(" "+ trans.Credit);
-                debit += trans.Debit;
-                credit += trans.Credit;
-            }
+            bok.PrintAll();
+            decimal debit = bok.SumDebit();
+            decimal credit = bok.SumCredit();
+            
             Console.WriteLine("Summa Debet: " + debit);
             Console.WriteLine("Summa Kredit: " + credit);
             Console.WriteLine("Resultat skillnad: " + (debit - credit));

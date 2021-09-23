@@ -3,18 +3,23 @@
     using System;
     public class Transaction
     {
-        private string label;
-        private int number;
-        private decimal debit;
-        private decimal credit;
+        public string Label { get; }
+        public int Number { get; }
+        public decimal Debit { get; }
+        public decimal Credit { get; }
+        public DateTime Time { get; }
 
-        public string Label
+        public Transaction(int accountNr, string label, decimal debit, decimal credit)
         {
-            get { return label; }
-            set { label = value; }
+            this.Number = accountNr;
+            this.Label = label;
+            this.Credit = credit;
+            this.Debit = debit;
+            this.Time = DateTime.Now;
         }
-        public int Number { get => number; set => number = value; }
-        public decimal Debit { get => debit; set => debit = value; }
-        public decimal Credit { get => credit; set => credit = value; }
+        public override string ToString()
+        {
+            return $"{Time.ToString("yyyy-MM-dd HH:mm")} | {Number:0000} | {Label,-20} | {Debit,7} | {Credit,7} |";
+        }
     }
 }

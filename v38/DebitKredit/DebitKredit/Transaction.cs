@@ -1,7 +1,7 @@
 ﻿namespace DebitKredit
 {
     using System;
-    public class Account
+    public class Transaction
     {
         private string label;
         private int number;

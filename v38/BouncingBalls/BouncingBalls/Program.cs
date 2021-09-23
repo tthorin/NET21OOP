@@ -14,10 +14,10 @@
             //Console.WindowWidth = 250;
 #pragma warning restore CA1416 // Validate platform compatibility
 
-            Ball[] balls = new Ball[200];
+            Ball[] balls = new Ball[100];
             for (int ball = 0; ball < balls.Length; ball++)
             {
-                balls[ball] = new Ball(true,1);
+                balls[ball] = new Ball(true,4);
             }
 
             Console.CursorVisible = false;

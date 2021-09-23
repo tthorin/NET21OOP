@@ -6,29 +6,41 @@
     {
         private double x;
         private double y;
-        double PlusX = 1;
+        double PlusX { get; set; } = 1;
         double PlusY = 1;
         string BallShape = "O";
         int trail = 1;
         int maxSpeed = 3;
-        static int maxX = Console.WindowWidth-1;
-        static int maxY = Console.WindowHeight-1;
+        static int maxX = Console.WindowWidth - 1;
+        static int maxY = Console.WindowHeight - 1;
         Queue<int> xMemory = new();
         Queue<int> yMemory = new();
 
         public double X
         {
-            get => x;
+            get
+            {
+                if (x > Console.WindowWidth - BallShape.Length) x = Console.WindowWidth - BallShape.Length;
+                else if (x < 0) x = 0;
+                return x;
+            }
+
             set
             {
-                if (value > maxX-BallShape.Length) x = maxX - BallShape.Length;
+                if (value > maxX - BallShape.Length) x = maxX - BallShape.Length;
                 else if (value < 0) x = 0;
                 else x = value;
             }
         }
         public double Y
         {
-            get => y; 
+            get
+            {
+                if (y > Console.WindowHeight) y = Console.WindowHeight;
+                else if (y < 0) y = 0;
+                return y;
+            }
+
             set
             {
                 if (value > maxY) y = maxY;
@@ -37,8 +49,8 @@
             }
         }
 
-        public Ball(bool randomSetup=true, int trail = 3)
-        {   
+        public Ball(bool randomSetup = true, int trail = 3)
+        {
             if (randomSetup) RandomBallSetup();
             this.trail = trail;
         }
@@ -95,13 +107,13 @@
 
         private void CheckScreenSize()
         {
-            if (Console.WindowHeight != maxY+1 || Console.WindowWidth != maxX+1)
+            if (Console.WindowHeight != maxY + 1 || Console.WindowWidth != maxX + 1)
             {
                 Console.Clear();
                 xMemory.Clear();
                 yMemory.Clear();
-                maxY = Console.WindowHeight-1;
-                maxX = Console.WindowWidth-1;
+                maxY = Console.WindowHeight - 1;
+                maxX = Console.WindowWidth - 1;
                 Console.CursorVisible = false;
             }
             return;

@@ -23,13 +23,15 @@ namespace DebitKredit
 
 
         /// <summary>
-        /// 1910:Kassa
-        /// 1930:Företagskonto
-        /// 2440:Leverantörsskuld
-        /// 3010:Försäljning
-        /// 5410:Datorinköp
+        /// Creates a new transaction
         /// </summary>
-        /// <param name="accountNr"></param>
+        /// <param name="accountNr">
+        /// 1910: Kassa,
+        /// 1930: Företagskonto,
+        /// 2440: Leverantörsskuld,
+        /// 3010: Försäljning,
+        /// 5410: Datorinköp
+        /// </param>
         /// <param name="debit"></param>
         /// <param name="credit"></param>
         public void CreateTransaction(int accountNr, decimal debit, decimal credit)

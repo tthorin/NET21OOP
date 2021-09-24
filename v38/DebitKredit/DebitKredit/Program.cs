@@ -5,11 +5,7 @@
 
     class Program
     {
-        //ChartOfAccounts.Add(1910, "Kassa");
-        //    ChartOfAccounts.Add(1930, "Företagskonto");
-        //    ChartOfAccounts.Add(2440, "Leverantörsskuld");
-        //    ChartOfAccounts.Add(3010, "Försäljning");
-        //    ChartOfAccounts.Add(5410, "Datorinköp");
+        
         static void Main(string[] args)
         {
             Accounting bok = new();
@@ -20,7 +16,6 @@
             bok.CreateTransaction(2440, 0, 0);
             bok.CreateTransaction(5410, 0, -10000);
             bok.CreateTransaction(1111, 0, -10000);
-
 
             bok.PrintAll();
             decimal debit = bok.SumDebit();

@@ -9,7 +9,7 @@
         public int Doors { get; set; } = 4;
         public int Gears { get; set; } = 6;
         public string Model { get; set; } = "Standard";
-        public string Manufacurer { get; set; } = "CarCorp";
+        public string Manufacturer { get; set; } = "CarCorp";
         public int Year { get; set; } = 2021;
 
         public void Start()

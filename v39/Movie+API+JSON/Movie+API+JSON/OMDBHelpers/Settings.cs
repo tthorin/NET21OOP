@@ -1,4 +1,4 @@
-﻿namespace Movie_API_JSON
+﻿namespace OMDBApp.Helpers
 {
     public static class Settings
     {

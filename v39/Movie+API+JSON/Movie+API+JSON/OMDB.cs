@@ -6,7 +6,7 @@
 
     public static class OMDB
     {
-        public static Movie GetMovie(string url, string id)
+        private static Movie GetMovie(string url, string id)
         {
             string json = ReadCache(id);
             if (json == "")
@@ -19,17 +19,17 @@
             }
             return JsonConvert.DeserializeObject<Movie>(json);
         }
-        public static Movie GetMovieByTitle(string title, string year = "", bool longPlot = false)
+        public static Movie GetMovieByTitle(string title, string year = "", bool fullPlot = false)
         {
             var url = $"http://www.omdbapi.com/?apikey={Settings.Key}&t={title}&y={year}";
-            if (longPlot) url += "&plot=long";
-            return GetMovie(url, title + year + longPlot);
+            if (fullPlot) url += "&plot=full";
+            return GetMovie(url, title + year + fullPlot);
         }
-        public static Movie GetMovieByIMDB(string imdb, string year = "", bool longPlot = false)
+        public static Movie GetMovieByIMDB(string imdb, string year = "", bool fullPlot = false)
         {
             var url = $"http://www.omdbapi.com/?apikey={Settings.Key}&i={imdb}";
-            if (longPlot) url += "&plot=long";
-            return GetMovie(url, imdb+year+longPlot);
+            if (fullPlot) url += "&plot=full";
+            return GetMovie(url, imdb+year+fullPlot);
         }
 
         private static SearchResult SearchMovie(string url, string id)
@@ -57,7 +57,7 @@
             Console.WriteLine($"{result.totalResults} movies found.");
             foreach (var movie in result.Search)
             {
-                Console.WriteLine($"{movie.Title,40}{movie.Year}");
+                Console.WriteLine($"{movie.Title,-40} {movie.Year}");
             }
         }
         public static void PrintMovie(Movie movie)

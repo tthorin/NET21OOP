@@ -1,4 +1,4 @@
-﻿namespace OMDBHelpers
+﻿namespace Movie_API_JSON
 {
     using System;
     using System.Collections.Generic;

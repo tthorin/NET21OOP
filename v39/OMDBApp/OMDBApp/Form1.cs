@@ -15,8 +15,8 @@
     {
         public static SearchResult Result { get; set; }
         public static Movie MovieToDisplay { get; set; }
-        public int Page { get; set; }
-        public string SearchString { get; set; } = "";
+        public static int Page { get; set; }
+        public static string SearchString { get; set; } = "";
 
         public Form1()
         {
@@ -24,8 +24,6 @@
             progressBar1.Minimum = 0;
             backButton.Enabled = false;
             moreButton.Enabled = false;
-            
-
         }
 
         private void searchButton_Click(object sender, EventArgs e)
@@ -36,21 +34,8 @@
             if (Result is SearchResult && Result.Response == "True")
             {
                 progressBar1.Maximum = Int32.Parse(Result.totalResults);
-                progressBar1.Value = Page * 10;
+                progressBar1.Value = Page * 10 > progressBar1.Maximum ? progressBar1.Maximum : Page * 10;
             }
-            label3.Text = Result.Response;
-        }
-
-
-        private void searchTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -72,20 +57,53 @@
                 DoSearch();
             }
         }
-        private void DoSearch()
+
+        private void cancelButton_Click(object sender, EventArgs e)
         {
-            Result = OMDB.Search(SearchString, page: Page.ToString());
-            DisplaySearchResult();
-            HandleNavigationButtons();
+            Page = 1;
+            SearchString = "";
+            searchTextBox.Text = "";
+            treeView1.Nodes.Clear();
+            backButton.Enabled = false;
+            moreButton.Enabled = false;
+            posterPictureBox.Image = null;
+            movieInfotextBox.Text = "";
+            progressBar1.Value = 0;
+            searchResultLabel.Text = "Search results:";
+            resultCountLabel.Text = "Awaiting search result";
         }
 
-        private void HandleNavigationButtons()
+        private void treeView1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (Page * 10 < Int32.Parse(Result.totalResults)) moreButton.Enabled = true;
-            else moreButton.Enabled = false;
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                treeViewSelect();
+                e.Handled = true;
+            }
+        }
 
-            if (Page == 1) backButton.Enabled = false;
-            else backButton.Enabled = true;
+        private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+            string imdbID = "";
+            if (treeView1.SelectedNode.Parent != null)
+            {
+                imdbID = Result.Search[treeView1.SelectedNode.Parent.Index].imdbID;
+            }
+            else imdbID = Result.Search[treeView1.SelectedNode.Index].imdbID;
+            if (Result is SearchResult && Result.Response == "True")
+            {
+                MovieToDisplay = OMDB.GetMovieByIMDB(imdbID);
+                posterPictureBox.ImageLocation = MovieToDisplay.Poster;
+                posterPictureBox.Load();
+                movieInfotextBox.Text =
+                    $"{MovieToDisplay.Title} - {MovieToDisplay.Year}\r\n" +
+                    $"Genre: {MovieToDisplay.Genre}\r\n" +
+                    $"Lenght: {MovieToDisplay.Runtime}\r\n" +
+                    $"Director: {MovieToDisplay.Director}\r\n" +
+                    $"Actors: {MovieToDisplay.Actors}\r\n" +
+                    $"\r\n" +
+                    $"Plot: {MovieToDisplay.Plot}";
+            }
         }
 
         private void DisplaySearchResult()
@@ -93,9 +111,9 @@
             treeView1.Nodes.Clear();
             if (Result is SearchResult && Result.Response == "True")
             {
-                label1.Text = $"Search results for \"{SearchString}\" :";
+                searchResultLabel.Text = $"Search results for \"{SearchString}\" :";
 
-                label2.Text = $"Showing {Page * 10 - 9} to {Page * 10} out of {Result.totalResults} results.";
+                resultCountLabel.Text = $"Showing {Page * 10 - 9} to {Page * 10} out of {Result.totalResults} results.";
 
                 for (int i = 0; i < Result.Search.Length; i++)
                 {
@@ -105,22 +123,39 @@
                     treeView1.Nodes[i].Nodes.Add(new TreeNode("ImdbID: " + Result.Search[i].imdbID));
                 }
             }
-            else searchResultListBox.Items.Add("Nothing found");
+            else treeView1.Nodes.Add("Nothing found...");
         }
-
-        private void cancelButton_Click(object sender, EventArgs e)
+        public void DoSearch()
         {
-
+            Result = OMDB.Search(SearchString, page: Page.ToString());
+            DisplaySearchResult();
+            HandleNavigationButtons();
+            Console.WriteLine();
         }
-
-        private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
-        {   
-            string imdbID = "";
-            if (e.Node.Parent != null)
+        private void HandleNavigationButtons()
+        {
+            if (Result is SearchResult && Result.Response == "True")
             {
-                imdbID = Result.Search[e.Node.Parent.Index].imdbID;
+                if (Page * 10 < Int32.Parse(Result.totalResults)) moreButton.Enabled = true;
+                else moreButton.Enabled = false;
+
+                if (Page == 1) backButton.Enabled = false;
+                else backButton.Enabled = true;
             }
-            else imdbID = Result.Search[e.Node.Index].imdbID;
+            else
+            {
+                backButton.Enabled = false;
+                moreButton.Enabled = false;
+            }
+        }
+        private void treeViewSelect()
+        {
+            string imdbID = "";
+            if (treeView1.SelectedNode.Parent != null)
+            {
+                imdbID = Result.Search[treeView1.SelectedNode.Parent.Index].imdbID;
+            }
+            else imdbID = Result.Search[treeView1.SelectedNode.Index].imdbID;
             if (Result is SearchResult && Result.Response == "True")
             {
                 MovieToDisplay = OMDB.GetMovieByIMDB(imdbID);
@@ -128,6 +163,8 @@
                 posterPictureBox.Load();
                 movieInfotextBox.Text =
                     $"{MovieToDisplay.Title} - {MovieToDisplay.Year}\r\n" +
+                    $"Genre: {MovieToDisplay.Genre}\r\n" +
+                    $"Lenght: {MovieToDisplay.Runtime}\r\n" +
                     $"Director: {MovieToDisplay.Director}\r\n" +
                     $"Actors: {MovieToDisplay.Actors}\r\n" +
                     $"\r\n" +

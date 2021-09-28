@@ -41,6 +41,7 @@
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.movieInfotextBox = new System.Windows.Forms.TextBox();
             this.treeView1 = new System.Windows.Forms.TreeView();
+            this.plotCheckBox = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.posterPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -86,7 +87,7 @@
             this.searchResultLabel.Location = new System.Drawing.Point(12, 41);
             this.searchResultLabel.Name = "searchResultLabel";
             this.searchResultLabel.Size = new System.Drawing.Size(82, 15);
-            this.searchResultLabel.TabIndex = 3;
+            this.searchResultLabel.TabIndex = 4;
             this.searchResultLabel.Text = "Search results:";
             // 
             // backButton
@@ -94,7 +95,7 @@
             this.backButton.Location = new System.Drawing.Point(12, 269);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(75, 23);
-            this.backButton.TabIndex = 5;
+            this.backButton.TabIndex = 6;
             this.backButton.Text = "Back";
             this.backButton.UseVisualStyleBackColor = true;
             this.backButton.Click += new System.EventHandler(this.backButton_Click);
@@ -104,7 +105,7 @@
             this.moreButton.Location = new System.Drawing.Point(297, 269);
             this.moreButton.Name = "moreButton";
             this.moreButton.Size = new System.Drawing.Size(75, 23);
-            this.moreButton.TabIndex = 7;
+            this.moreButton.TabIndex = 8;
             this.moreButton.Text = "More";
             this.moreButton.UseVisualStyleBackColor = true;
             this.moreButton.Click += new System.EventHandler(this.button2_Click);
@@ -115,7 +116,7 @@
             this.resultCountLabel.Location = new System.Drawing.Point(93, 273);
             this.resultCountLabel.Name = "resultCountLabel";
             this.resultCountLabel.Size = new System.Drawing.Size(123, 15);
-            this.resultCountLabel.TabIndex = 6;
+            this.resultCountLabel.TabIndex = 7;
             this.resultCountLabel.Text = "Awaiting search result";
             // 
             // progressBar1
@@ -123,7 +124,7 @@
             this.progressBar1.Location = new System.Drawing.Point(12, 299);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(360, 23);
-            this.progressBar1.TabIndex = 8;
+            this.progressBar1.TabIndex = 9;
             // 
             // movieInfotextBox
             // 
@@ -131,17 +132,28 @@
             this.movieInfotextBox.Multiline = true;
             this.movieInfotextBox.Name = "movieInfotextBox";
             this.movieInfotextBox.ReadOnly = true;
+            this.movieInfotextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.movieInfotextBox.Size = new System.Drawing.Size(360, 202);
-            this.movieInfotextBox.TabIndex = 9;
+            this.movieInfotextBox.TabIndex = 10;
             // 
             // treeView1
             // 
             this.treeView1.Location = new System.Drawing.Point(12, 59);
             this.treeView1.Name = "treeView1";
             this.treeView1.Size = new System.Drawing.Size(360, 202);
-            this.treeView1.TabIndex = 4;
+            this.treeView1.TabIndex = 5;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             this.treeView1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.treeView1_KeyPress);
+            // 
+            // plotCheckBox
+            // 
+            this.plotCheckBox.AutoSize = true;
+            this.plotCheckBox.Location = new System.Drawing.Point(459, 14);
+            this.plotCheckBox.Name = "plotCheckBox";
+            this.plotCheckBox.Size = new System.Drawing.Size(91, 19);
+            this.plotCheckBox.TabIndex = 3;
+            this.plotCheckBox.Text = "Get full plot.";
+            this.plotCheckBox.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -150,6 +162,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.cancelButton;
             this.ClientSize = new System.Drawing.Size(753, 546);
+            this.Controls.Add(this.plotCheckBox);
             this.Controls.Add(this.treeView1);
             this.Controls.Add(this.movieInfotextBox);
             this.Controls.Add(this.progressBar1);
@@ -182,6 +195,7 @@
         internal System.Windows.Forms.TextBox searchTextBox;
         internal System.Windows.Forms.Button moreButton;
         private System.Windows.Forms.TreeView treeView1;
+        private System.Windows.Forms.CheckBox plotCheckBox;
     }
 }
 

@@ -92,7 +92,7 @@
             else imdbID = Result.Search[treeView1.SelectedNode.Index].imdbID;
             if (Result is SearchResult && Result.Response == "True")
             {
-                MovieToDisplay = OMDB.GetMovieByIMDB(imdbID);
+                MovieToDisplay = OMDB.GetMovieByIMDB(imdbID, fullPlot: plotCheckBox.Checked);
                 posterPictureBox.ImageLocation = MovieToDisplay.Poster;
                 posterPictureBox.Load();
                 movieInfotextBox.Text =
@@ -126,7 +126,7 @@
             else treeView1.Nodes.Add("Nothing found...");
         }
         public void DoSearch()
-        {
+        {   
             Result = OMDB.Search(SearchString, page: Page.ToString());
             DisplaySearchResult();
             HandleNavigationButtons();
@@ -151,6 +151,7 @@
         private void treeViewSelect()
         {
             string imdbID = "";
+            
             if (treeView1.SelectedNode.Parent != null)
             {
                 imdbID = Result.Search[treeView1.SelectedNode.Parent.Index].imdbID;
@@ -158,7 +159,7 @@
             else imdbID = Result.Search[treeView1.SelectedNode.Index].imdbID;
             if (Result is SearchResult && Result.Response == "True")
             {
-                MovieToDisplay = OMDB.GetMovieByIMDB(imdbID);
+                MovieToDisplay = OMDB.GetMovieByIMDB(imdbID,fullPlot:plotCheckBox.Checked);
                 posterPictureBox.ImageLocation = MovieToDisplay.Poster;
                 posterPictureBox.Load();
                 movieInfotextBox.Text =

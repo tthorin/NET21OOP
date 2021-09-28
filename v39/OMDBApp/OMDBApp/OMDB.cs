@@ -68,17 +68,21 @@
         }
         private static string ReadCache(string file)
         {
-            var filename = $"{file}.cache.json";
+            var path = "cache";
+            var filename = @$"{path}\{file}.cache.json";
             string cache = "";
-            if (File.Exists(filename))
+            if (Directory.Exists(path) && File.Exists(filename))
             {
                 cache = File.ReadAllText(filename);
             }
+
             return cache;
         }
         private static void WriteCache(string file, string json)
         {
-            var filename = $"{file}.cache.json";
+            var path = "cache";
+            var filename = @$"{path}\{file}.cache.json";
+            if (!Directory.Exists(path)) Directory.CreateDirectory(path);
             File.WriteAllText(filename, json);
         }
     }

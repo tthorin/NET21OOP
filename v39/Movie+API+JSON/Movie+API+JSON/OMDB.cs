@@ -1,9 +1,9 @@
-﻿namespace OMDBApp
+﻿namespace Movie_API_JSON
 {
     using Newtonsoft.Json;
     using System;
     using System.IO;
-    using OMDBApp.Helpers;
+    using Helpers;
 
     public static class OMDB
     {

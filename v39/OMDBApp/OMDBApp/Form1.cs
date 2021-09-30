@@ -94,7 +94,7 @@
             {
                 MovieToDisplay = OMDB.GetMovieByIMDB(imdbID, fullPlot: plotCheckBox.Checked);
                 posterPictureBox.ImageLocation = MovieToDisplay.Poster;
-                posterPictureBox.Load();
+                if (MovieToDisplay.Poster != "N/A")posterPictureBox.Load();
                 movieInfotextBox.Text =
                     $"{MovieToDisplay.Title} - {MovieToDisplay.Year}\r\n" +
                     $"Genre: {MovieToDisplay.Genre}\r\n" +

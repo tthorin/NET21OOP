@@ -1,4 +1,4 @@
-﻿namespace OMDBApp.Helpers
+﻿namespace Movie_API_JSON.Helpers
 {
     public class Search
         {

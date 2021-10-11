@@ -4,6 +4,7 @@
 namespace CSharpRepetition.Net20.MarcusMedina
 {
     using CSharpRepetition.MarcusKod;
+    using System.Text.RegularExpressions;
 
     /// <summary>
     /// Testa dina kodninjakunskaper.
@@ -26,6 +27,18 @@ namespace CSharpRepetition.Net20.MarcusMedina
             // ---------------------------------------------------------------------------------
             // Skriv din kod nedan
             // ---------------------------------------------------------------------------------
+            Regex regex = new Regex(@"[A-zåäöÅÄÖ\d\.,\x20]");
+            
+            for (int i = 0; i < code.Length; i++)
+            {
+                if (regex.IsMatch(code[i].ToString()))
+                {
+                    resultat += (char)((int)code[i] + key);
+                }
+
+            }
+            
+            
 
             // ---------------------------------------------------------------------------------
             NiceDebug.DebugThis("Caesar :" + resultat);
@@ -44,7 +57,11 @@ namespace CSharpRepetition.Net20.MarcusMedina
             // ---------------------------------------------------------------------------------
             // Skriv din kod nedan
             // ---------------------------------------------------------------------------------
-
+            for (int i = 0; i < code.Length; i++)
+            {
+                resultat += (char)((int)code[i] - key);
+            }
+            
             // ---------------------------------------------------------------------------------
             return resultat;
         }

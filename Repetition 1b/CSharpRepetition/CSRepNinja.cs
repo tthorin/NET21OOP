@@ -37,8 +37,6 @@ namespace CSharpRepetition.Net20.MarcusMedina
                 }
 
             }
-            
-            
 
             // ---------------------------------------------------------------------------------
             NiceDebug.DebugThis("Caesar :" + resultat);

@@ -3,6 +3,7 @@
     using System;
     using System.IO;
     using System.Security.Cryptography;
+    using System.Text.RegularExpressions;
 
     internal class LoginHandler
     {
@@ -50,21 +51,25 @@
 
         private static string GetPassword()
         {
-            Console.Write("Password: ");
+            Regex regex = new Regex(@"[\S\x08{0}]");
             ConsoleKeyInfo cki = new();
             string password = "";
+            Console.Write("Password: ");
             while (true)
             {
                 Console.CursorVisible = false;
                 cki = Console.ReadKey(true);
                 if (cki.Key == ConsoleKey.Enter) break;
-                password += cki.KeyChar;
-                Console.Write("*");
+                if (regex.IsMatch(cki.KeyChar.ToString()))
+                {
+                    password += cki.KeyChar;
+                    Console.Write("*");
+                }
             }
             Console.WriteLine();
             Console.CursorVisible = true;
             return password;
-            
+
         }
 
         public void NewUser()

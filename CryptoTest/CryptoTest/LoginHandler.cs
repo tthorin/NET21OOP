@@ -9,7 +9,7 @@
         public string SaveDir { get; set; } = "Save";
         public string UsersFile { get; set; } = "users.txt";
         public string UserPath { get => Path.Combine(SaveDir, UsersFile); }
-        private int SaltLenght = 18;
+        private int SaltLenght = 36;
         private int passLenght = 36;
         private int passIterations = 2000;
 
@@ -20,20 +20,32 @@
         }
         internal void Add(User newUser)
         {
+            bool userExists = FindUser(newUser);
+            if (!userExists) File.AppendAllText(UserPath, newUser.ToString() + "\n");
+        }
+
+        private bool FindUser(User user)
+        {
             string[] file = File.ReadAllLines(UserPath);
             bool userExists = false;
             foreach (var line in file)
             {
-                if (line.StartsWith(newUser.Name)) userExists = true;
+                if (line.StartsWith(user.Name)) userExists = true;
             }
-            if (!userExists) File.AppendAllText(UserPath, newUser.ToString() + "\n");
+
+            return userExists;
         }
+
         public void Login()
         {
             Console.Write("Username: ");
             string username = Console.ReadLine();
-            string password = GetPassword();
-            ValidateLogin(username, password);
+            if (FindUser(new User() { Name = username }))
+            {
+                string password = GetPassword();
+                ValidateLogin(username, password);
+            }
+            else Console.WriteLine("User not found.");
         }
 
         private static string GetPassword()
@@ -46,12 +58,13 @@
                 Console.CursorVisible = false;
                 cki = Console.ReadKey(true);
                 if (cki.Key == ConsoleKey.Enter) break;
-
-                password += (cki.Modifiers & ConsoleModifiers.Shift) != 0 ? cki.Key.ToString() : cki.Key.ToString().ToLower();
+                password += cki.KeyChar;
                 Console.Write("*");
             }
+            Console.WriteLine();
             Console.CursorVisible = true;
             return password;
+            
         }
 
         public void NewUser()
@@ -60,7 +73,7 @@
             Console.Write("Username: ");
             string username = Console.ReadLine();
             string password = GetPassword();
-            
+
             newUser.Name = username;
             newUser.Salt = GenerateSalt(SaltLenght);
             newUser.Password = GenerateHash(password, newUser.Salt);

@@ -25,6 +25,7 @@ namespace CSharpRepetition.Net20.MarcusMedina
             // ---------------------------------------------------------------------------------
 
             int resultat = 0;
+            resultat = (int)(slut - start).TotalDays;
 
             // ---------------------------------------------------------------------------------
             NiceDebug.DebugThis($"Antal dagar : {resultat}");
@@ -43,7 +44,7 @@ namespace CSharpRepetition.Net20.MarcusMedina
             // ---------------------------------------------------------------------------------
             // Skriv din kod nedan
             // ---------------------------------------------------------------------------------
-
+            resultat = date.AddMonths(month);
             // ---------------------------------------------------------------------------------
 
             NiceDebug.DebugThis($"Datum       : {resultat}");
@@ -65,6 +66,12 @@ namespace CSharpRepetition.Net20.MarcusMedina
             // ---------------------------------------------------------------------------------
             // Skriv din kod nedan
             // ---------------------------------------------------------------------------------
+            int longest = first.Length >= second.Length ? first.Length : second.Length;
+            for (int i = 0; i < longest; i++)
+            {
+                if (i < first.Length) resultat += first[i];
+                if (i < second.Length) resultat += second[i];
+            }
 
             // ---------------------------------------------------------------------------------
             NiceDebug.DebugThis($"Bokstäver   : {resultat}");

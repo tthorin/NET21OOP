@@ -1,11 +1,11 @@
 ﻿namespace TicketChooser.Enums
 {
-    enum Tickets
+    public enum Tickets
     {
-        SingleDay,
-        ThirtyDay,
-        NinetyDays,
-        OneYear,
+        Enkelbiljett,
+        TrettiDagars,
+        NittiDagars,
+        Årsbiljett,
         Error
     }
 }
